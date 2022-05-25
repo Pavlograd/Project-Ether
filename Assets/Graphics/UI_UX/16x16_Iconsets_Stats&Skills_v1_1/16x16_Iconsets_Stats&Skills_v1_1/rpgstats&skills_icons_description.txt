@@ -1,0 +1,148 @@
+Stats & Skills Iconset:
+
+001 –	Heart				intented use for health / healthpoints
+002 –	Mana				intented use for magic / magicpoints
+003 –	One-Handed Sword		can be used as gear icon, as attack icon or for sword skills
+004 –	Shield				can be used as gear icon, as defend icon or for defending skills
+005 –	Magic Shield			can be used as gear icon, or for magical defense, defense skills
+006 –	Luck				intented to be used for luck stat, also can be used for magic skills
+007 –	Faith				intented to be used for faith skill, also can be used for magic skills
+008 – 	Dagger				can be used as gear icon, as attack icon or for dagger skills
+009 –	Club				can be used as gear icon, as attack icon or for blunt weapon skills
+010 –	Bow				can be used as gear icon, as attack icon or for archery skills
+
+011 –	Weight				intented to be used to indicate weight, also can be used as loot icon
+012 –	Coin				intented to be used for the money counter, also can be used as loot icon
+013 –	Armor				intented to be used to give an armor value, also can be used as gear icon or for defenive skills
+014 –	Ammo				intented to be used as ammo counter, also can be used for archery skills
+015 –	Strength			intented to indicate a strength value
+016 –	Brain				intented to indicate an intelligence value
+017 –	Open hand			intented to indicate a skill / dexterity value
+018 –	Foot				intented to indicate an speed value - also can be used for speed magic
+019 –	Torso				intented to indicate a constitution value
+020 –	Fist				can be used as weaponless attack icon, as skill icon for hand-to-hand combat
+
+021 –	Wisdom				intented to indicare a wisdom value, also can be used for intelligence
+022 –	Stealth				intented to indicate a stealth value, also could illustate ninja skills
+023 –	Charisma			intented to indicate a charsima value
+024 –	Pointy Finger			intented to indicate an intimidation value
+025 –	Lips				intented to indicate a persuasion value
+026 –	Impact Star			can be used for light spells, for explosions or blunt damage
+027 –	Explosion			can for explosion skills
+028 –	Cut				can be used for slicing skills
+029 –	Crosshair			can be used to indicate an accuracy value or for ranged skills
+030 –	Vampire Teeth			can be used to indicate a vampirism state, for beast attacks or for biting skills
+
+031 –	Flame				can be used for fire based magic spells
+032 –	Ice Crystal			can be used for	ice based magic spells
+033 – 	Flash				can be used for electricity based lightning spells or to indicate a power value
+034 –	Water Drop			can be used for water based magic spells, or to indicate a hydration value
+035 –	Wind Blade			can be used for wind based magic spells
+036 –	Rock				can be used for earth based magic spells
+037 –	Faith Shine			can be used for divine based magic spells
+038 –	Darkness			can be used for dark based magic spells
+039 –	Enchanted Sword			can be used for enchanting weapon magic or as gear icon
+040 –	Life Drain			can be used for life draining abilities
+
+041 –	Fire Ball			can be used for fire projectile magic
+042 –	Ice Spikes			can be used for ice based projectile magic
+043 –	Lightning			can be used for strong electricity based magic spells
+044 –	Wave				can be used for strong water based magic spells
+045 – 	Whirlwind			can be used for strong wind based magic spells
+046 –	Earthquake			can be used for strong earthquake based magic spells
+047 –	Holy Light			can be used for aoe divine magic spells
+048 – 	Curse				can be used for dark magic curses & death sentences
+049 –	Magic Barrier			can be used for magic barrier spells
+050 –	Mana Drain			can be used for mana draining abilities
+
+061 –	Blue Flame			can be used for magical flame based spells
+062 –	Green Flame			can be used for flame based wind/poison magic spells
+063 –	Dark Flame			can be used for flame based dark magic spells
+064 –	Fire Blade			can be used for cutting based fire magic spells
+065 –	Water Blade			can be used for cutting based water magic spells
+066 –	Magic Kick			can be used for kick martial art skills
+067 –	Magic Tackle			can be used for body & fist martial arts skills
+068 –	Magic Tailswipe			can be used for monster tail attacks
+069 –	Magic Rank			can be used for nature magic or whip based skills
+070 –	Magic Scratch			can be used for claw-based skills
+
+081 –	Blue Fireball			can be used for magical ball based spells
+082 –	Green Fireball			can be used for wind/poison ball based spells
+083 –	Dark Firebal			can be used for dark ball based spells
+084 –	Fire Whirlwhind			can be used for strong fire based magic spells
+085 –	Water Whirlwind			can be used for strong water based magic spells
+086 –	Magic Swordslash		can be used for sword skills
+087 –	Magic Clubslash			can be used for blunt weapon skills
+088 –	Magic Dagger Thrust		can be used for stabs, backstabs and dagger attacks
+089 –	Magic Arrow			can be used for bow skills
+090 –	Magic Sting			can be used for spear skills or animal stings
+
+091 –	Blood Speechbubble		can be used to indicate bleeding
+092 –	Holy Speechbubble		can be used to indicate a divinely blessed status
+093 –	Fear Speechbuble		can be used to indicate fear
+094 –	K.O. Speechbubble		can be used to indicate K.O.
+095 –	Enchanted Speechbubble		can be used to indicate enchantedness
+096 –	Kick				can be used for kick martial art skills
+097 –	Tackle				can be used for body & fist martial arts skills
+098 –	Tailswipe			can be used for monster tail attacks
+099 –	Rank				can be used for nature magic or whip based skills
+100 –	Scratch				can be used for claw-based skills
+
+101 –	Blooddrop			can be used to indicate a blood level or skills connected to blood
+102 –	Holy Blessing			can be used for praying skills or buffs which are divine
+103 –	Fear				can be used for skills which cause fear
+104 –	Stars				can be used for skills which are special or induce K.O.
+105 – 	Hearts				can be used to indicate a relationship value or for skills which enchant enemies
+106 –	Swordslash			can be used for sword skills
+107 –	Clubslash			can be used for blunt weapon skills
+108 –	Dagger Thrust			can be used for stabs, backstabs and dagger attacks
+109 –	Arrow				can be used for bow skills
+110 –	Sting				can be used for spear skills or animal stings
+
+111 –	Exhausted Speechbubble		can be used to indicate an exhausted status
+112 –	Poison Speechbubble		can be used to indicate a poisoned or intoxicated status
+113 –	Blind Speechbubble		can be used to indicate a blinded status
+114 –	Muted Speechbubble		can be used to indicate a muted status
+115 –	Confusion Speechbubble		can be used to indicate a confused status
+116 –	Sleeping Speechbubble		can be used to indicate a sleeping status
+117 –	Paralyzed Speechbubble		can be used to indicate a paralyzed status
+118 –	Blocked Vision Speechbubble	can be used to indicate that the direct vision is blocked
+119 –	Defending Speechbubble		can be used to show that someone is under defense
+120 –	Burning Speechbubble		can be used to indicate burning
+
+121 –	Water Droplets			can be used to give an exhaustion value, for water based magic or skills which cause exhaustion
+122 –	Poison Bubbles			can be used for poison skills
+123 –	Blindfold			can be used for skills which cause blindness
+124 –	Mute				can be used for skills which cause mute
+125 –	Questionmark			can be showed for skills which cause confusion
+126 –	Sleeping			can be used for skills which cause sleeping
+127 –	Paralysis			can be used for skills which cause paralyzation
+128 –	View Blocked			can be used to indicate a blocked view
+129 –	Defending			can be used for defensive skills
+130 –	Burning				can be used for skills which inflict burns
+
+131 –	Burning Speechbubble		can be used to indicate a burning status
+132 –	Frosted Speechbubble		can be used to indicate a frozen / frosted status
+133 –	Defense Speechbubble		can be used to indicate defense buffs
+134 –	Hourglass Speechbubble		can be used to indicate a waiting status
+135 –	Magical Defense Speechbubble	can be used to indicate magical defense buffs
+136 –	Healing Speechbubble		can be used to indicate heal buffs
+137 –	No Movement Speechbubble	can be used to indicate disabled movement
+138 –	Attack Speechbubble		can be used to indicate ready for attack or sword buffs
+139 –	No Attack Speechbubble		can be used to indicate that no attack is possible
+140 –	Skull Speechbubble		can be used to indicate poison, toxin or death sentenced status
+
+141 –	Minus				can be used within a status menu or in conjunction with other icons
+142 – 	Plus				can be used within a status menu or in conjunction with other icons
+143–150	Plus and Minus icons		examples for attack plus, attack minus, magical attack plus, magical attack minus etc.
+
+151 –	Frost				can be used for strong ice magic
+152 –	Magic Bubbles			can be used for aoe magic defense spells
+153 –	Modern Ammo			intented to be used as ammo counter, also can be used for gun skills
+154 –	Modern Blind Speechbubble	can be used to indicate a blinded status
+155 –	Sunglasses			can be used for skills which cause blindness or for a coolness value
+156 –	Boot Speechbubble		can be used to indicate movement
+157 –	Empty Small Speechbubble	smaller speechbubble to fill with whatever you like
+158 –	Empty Big Speechbubble		big speechbubble to fill with whatever you like
+159 –	X				X cross not OK
+160 –	Mark				OK mark

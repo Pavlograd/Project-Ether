@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6269684672722539954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6269684672722539948}
+  - component: {fileID: 6269684672722539949}
+  - component: {fileID: 6269684672722539951}
+  m_Layer: 0
+  m_Name: Load
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6269684672722539948
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6269684672722539954}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 86.35793, y: 40.710674, z: -171.36385}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6269684672722539949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6269684672722539954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205a37b9f31529148a0e8f6c62cb4acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _walls: {fileID: 0}
+  _ground: {fileID: 0}
+  _traps: {fileID: 0}
+  _mobs: {fileID: 0}
+  _decors: {fileID: 0}
+  _prefabDecors: {fileID: 7815643013359539911, guid: 6042e61516c767343bf3d9fc9380375a, type: 3}
+  _portals: {fileID: 0}
+  _trapsPrefab:
+  - {fileID: 8415509713086544927, guid: e51cd93d18be9b24d98f886a6f978c6d, type: 3}
+  - {fileID: 6474270202868001463, guid: cca513a2e92ae0e449b4bc1c5ce9d77c, type: 3}
+  - {fileID: 1788500267363069254, guid: d412b9928fa519a499137b728cdc41b9, type: 3}
+  _mobsPrefab:
+  - {fileID: 5868228268045033810, guid: 9054ff135794701468f379193fe946b8, type: 3}
+  - {fileID: 3621847053368607701, guid: 865f9357e862bc54995f2f06fd8b3595, type: 3}
+  - {fileID: 290898308901763469, guid: 750cf4e0440081c4cacf095deab8d170, type: 3}
+  - {fileID: 5451813284636326907, guid: d89154eabcc199d4b9452d6d6b6d3f29, type: 3}
+  - {fileID: 284178757930375665, guid: b7d5f892907277b40b1d58ba9aad02b6, type: 3}
+  - {fileID: 5868228268045033810, guid: fe4b2b3dec08327489e557f1e05dc741, type: 3}
+  - {fileID: 3396350541365593682, guid: 906ff7b5b97c9fd488847db351918b90, type: 3}
+  _portalPrefab: {fileID: 5185758264433525242, guid: 751706f82f253024393a8de450832e91, type: 3}
+  _loadTextures: {fileID: 0}
+  activeRoom: 0
+  clear: 1
+  preLoad: 1
+  isStarted: 0
+  offset: 0
+--- !u!114 &6269684672722539951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6269684672722539954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8a4824fbf5d31845b03f9ad21101d74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _content: {fileID: 0}
+  _button: {fileID: 3345210759395552995, guid: b4caee0e1d689314383244a35941a164, type: 3}
+  _roomLoader: {fileID: 6269684672722539949}

@@ -1,0 +1,84 @@
+{
+    "id":13,
+    "name":"chbouhin",
+    "level":0,
+    "crystal":1000,
+    "cash":1000,
+    "mentoring":1000,
+    "textureSlot":2,
+    "maxTextureSlot":10,
+    "hasDoneTutorial":true,
+    "social":{
+       "friends":{
+          "id":3
+       },
+       "guild":{
+          "id":3
+       }
+    },
+    "gear":{
+       "skills":[
+          
+       ]
+    },
+    "inventory":{
+       "skills":[
+          
+       ],
+       "traps":[
+          
+       ],
+       "mobs":[
+          
+       ],
+       "ressources":[
+          
+       ],
+       "textureInventory":[
+          
+       ],
+       "colorInventory":[
+          
+       ]
+    },
+    "donjon":{
+       "tested":true,
+       "gear":{
+          "skills":[
+             
+          ]
+       },
+       "rooms":[
+          {
+             "name":"Name",
+             "room":"{Room:{Walls:[0:0:wall_corner_front_left,0:1:wall_corner_front_left,0:2:wall_corner_front_left,0:3:wall_corner_front_left,0:4:wall_corner_front_left,0:5:wall_corner_front_left,0:6:wall_corner_front_left,0:7:wall_corner_front_left,0:8:wall_corner_front_left,1:0:wall_corner_front_left,1:8:wall_corner_front_left,2:0:wall_corner_front_left,2:8:wall_corner_front_left,3:0:wall_corner_front_left,3:8:wall_corner_front_left,4:0:wall_corner_front_left,4:8:wall_corner_front_left,5:0:wall_corner_front_left,5:8:wall_corner_front_left,6:0:wall_corner_front_left,6:1:wall_corner_front_left,6:2:wall_corner_front_left,6:3:wall_corner_front_left,6:4:wall_corner_front_left,6:5:wall_corner_front_left,6:6:wall_corner_front_left,6:7:wall_corner_front_left,6:8:wall_corner_front_left,],Ground:[0:0:floor_1,0:1:floor_1,0:2:floor_1,0:3:floor_1,0:4:floor_1,0:5:floor_1,0:6:floor_1,0:7:floor_1,1:0:floor_1,1:1:floor_1,1:2:floor_1,1:3:floor_1,1:4:floor_1,1:5:floor_1,1:6:floor_1,1:7:floor_1,2:0:floor_1,2:1:floor_1,2:2:floor_1,2:3:floor_1,2:4:floor_1,2:5:floor_1,2:6:floor_1,2:7:floor_1,3:0:floor_1,3:1:floor_1,3:2:floor_1,3:3:floor_1,3:4:floor_1,3:5:floor_1,3:6:floor_1,3:7:floor_1,4:0:floor_1,4:1:floor_1,4:2:floor_1,4:3:floor_1,4:4:floor_1,4:5:floor_1,4:6:floor_1,4:7:floor_1,5:0:floor_1,5:1:floor_1,5:2:floor_1,5:3:floor_1,5:4:floor_1,5:5:floor_1,5:6:floor_1,5:7:floor_1,],}}",
+             "traps":"1.5:2.5:0,2.5:2.5:0,4.5:2.5:0,5.5:2.5:0,1.5:7.5:0,5.5:7.5:0,",
+             "mobs":"",
+             "decors":"",
+             "portals":"3.5:1.5:-1:-1,3.5:7.5:1:1,"
+          },
+          {
+             "name":"Name",
+             "room":"{Room:{Walls:[1:5:wall_corner_front_left,1:6:wall_corner_front_left,1:7:wall_corner_front_left,1:8:wall_corner_front_left,1:9:wall_corner_front_left,2:4:wall_corner_front_left,2:5:wall_corner_front_left,2:9:wall_corner_front_left,2:10:wall_corner_front_left,3:3:wall_corner_front_left,3:4:wall_corner_front_left,3:10:wall_corner_front_left,3:11:wall_corner_front_left,4:3:wall_corner_front_left,4:11:wall_corner_front_left,5:3:wall_corner_front_left,5:11:wall_corner_front_left,6:3:wall_corner_front_left,6:11:wall_corner_front_left,7:3:wall_corner_front_left,7:11:wall_corner_front_left,8:3:wall_corner_front_left,8:11:wall_corner_front_left,9:3:wall_corner_front_left,9:11:wall_corner_front_left,10:3:wall_corner_front_left,10:11:wall_corner_front_left,11:3:wall_corner_front_left,11:4:wall_corner_front_left,11:10:wall_corner_front_left,11:11:wall_corner_front_left,12:4:wall_corner_front_left,12:5:wall_corner_front_left,12:9:wall_corner_front_left,12:10:wall_corner_front_left,13:5:wall_corner_front_left,13:6:wall_corner_front_left,13:7:wall_corner_front_left,13:8:wall_corner_front_left,13:9:wall_corner_front_left,],Ground:[2:5:floor_1,2:6:floor_1,2:7:floor_1,2:8:floor_1,2:9:floor_1,3:4:floor_1,3:5:floor_1,3:6:floor_1,3:7:floor_1,3:8:floor_1,3:9:floor_1,3:10:floor_1,4:3:floor_1,4:4:floor_1,4:5:floor_1,4:6:floor_1,4:7:floor_1,4:8:floor_1,4:9:floor_1,4:10:floor_1,4:11:floor_1,5:3:floor_1,5:4:floor_1,5:5:floor_1,5:6:floor_1,5:7:floor_1,5:8:floor_1,5:9:floor_1,5:10:floor_1,5:11:floor_1,6:3:floor_1,6:4:floor_1,6:5:floor_1,6:6:floor_1,6:7:floor_1,6:8:floor_1,6:9:floor_1,6:10:floor_1,6:11:floor_1,7:3:floor_1,7:4:floor_1,7:5:floor_1,7:6:floor_1,7:7:floor_1,7:8:floor_1,7:9:floor_1,7:10:floor_1,7:11:floor_1,8:3:floor_1,8:4:floor_1,8:5:floor_1,8:6:floor_1,8:7:floor_1,8:8:floor_1,8:9:floor_1,8:10:floor_1,8:11:floor_1,9:3:floor_1,9:4:floor_1,9:5:floor_1,9:6:floor_1,9:7:floor_1,9:8:floor_1,9:9:floor_1,9:10:floor_1,9:11:floor_1,10:3:floor_1,10:4:floor_1,10:5:floor_1,10:6:floor_1,10:7:floor_1,10:8:floor_1,10:9:floor_1,10:10:floor_1,10:11:floor_1,11:4:floor_1,11:5:floor_1,11:6:floor_1,11:7:floor_1,11:8:floor_1,11:9:floor_1,11:10:floor_1,12:5:floor_1,12:6:floor_1,12:7:floor_1,12:8:floor_1,12:9:floor_1,],}}",
+             "traps":"7.5:7.5:1,",
+             "mobs":"10.5:9.5:Witch:NORMAL,10.5:5.5:Runner:NORMAL,",
+             "decors":"",
+             "portals":"3.5:7.5:0:0,11.5:7.5:2:1,"
+          },
+          {
+             "name":"Boss",
+             "room":"{Room:{Walls:[0:0:wall_corner_front_left,0:1:wall_corner_front_left,0:2:wall_corner_front_left,0:3:wall_corner_front_left,0:4:wall_corner_front_left,0:5:wall_corner_front_left,0:6:wall_corner_front_left,0:7:wall_corner_front_left,0:8:wall_corner_front_left,0:9:wall_corner_front_left,0:10:wall_corner_front_left,0:11:wall_corner_front_left,0:12:wall_corner_front_left,0:13:wall_corner_front_left,0:14:wall_corner_front_left,1:0:wall_corner_front_left,1:14:wall_corner_front_left,2:0:wall_corner_front_left,2:14:wall_corner_front_left,3:0:wall_corner_front_left,3:3:wall_corner_front_left,3:4:wall_corner_front_left,3:10:wall_corner_front_left,3:14:wall_corner_front_left,4:0:wall_corner_front_left,4:3:wall_corner_front_left,4:4:wall_corner_front_left,4:14:wall_corner_front_left,5:0:wall_corner_front_left,5:14:wall_corner_front_left,6:0:wall_corner_front_left,6:14:wall_corner_front_left,7:0:wall_corner_front_left,7:14:wall_corner_front_left,8:0:wall_corner_front_left,8:14:wall_corner_front_left,9:0:wall_corner_front_left,9:14:wall_corner_front_left,10:0:wall_corner_front_left,10:3:wall_corner_front_left,10:4:wall_corner_front_left,10:14:wall_corner_front_left,11:0:wall_corner_front_left,11:3:wall_corner_front_left,11:4:wall_corner_front_left,11:14:wall_corner_front_left,12:0:wall_corner_front_left,12:14:wall_corner_front_left,13:0:wall_corner_front_left,13:14:wall_corner_front_left,14:0:wall_corner_front_left,14:1:wall_corner_front_left,14:2:wall_corner_front_left,14:3:wall_corner_front_left,14:4:wall_corner_front_left,14:5:wall_corner_front_left,14:6:wall_corner_front_left,14:7:wall_corner_front_left,14:8:wall_corner_front_left,14:9:wall_corner_front_left,14:10:wall_corner_front_left,14:11:wall_corner_front_left,14:12:wall_corner_front_left,14:13:wall_corner_front_left,14:14:wall_corner_front_left,],Ground:[0:0:floor_1,0:1:floor_1,0:2:floor_1,0:3:floor_1,0:4:floor_1,0:5:floor_1,0:6:floor_1,0:7:floor_1,0:8:floor_1,0:9:floor_1,0:10:floor_1,0:11:floor_1,0:12:floor_1,0:13:floor_1,1:0:floor_1,1:1:floor_1,1:2:floor_1,1:3:floor_1,1:4:floor_1,1:5:floor_1,1:6:floor_1,1:7:floor_1,1:8:floor_1,1:9:floor_1,1:10:floor_1,1:11:floor_1,1:12:floor_1,1:13:floor_1,2:0:floor_1,2:1:floor_1,2:2:floor_1,2:3:floor_1,2:4:floor_1,2:5:floor_1,2:6:floor_1,2:7:floor_1,2:8:floor_1,2:9:floor_1,2:10:floor_1,2:11:floor_1,2:12:floor_1,2:13:floor_1,3:0:floor_1,3:1:floor_1,3:2:floor_1,3:3:floor_1,3:4:floor_1,3:5:floor_1,3:6:floor_1,3:7:floor_1,3:8:floor_1,3:9:floor_1,3:11:floor_1,3:12:floor_1,3:13:floor_1,4:0:floor_1,4:1:floor_1,4:2:floor_1,4:3:floor_1,4:4:floor_1,4:5:floor_1,4:6:floor_1,4:7:floor_1,4:8:floor_1,4:9:floor_1,4:10:floor_1,4:11:floor_1,4:12:floor_1,4:13:floor_1,5:0:floor_1,5:1:floor_1,5:2:floor_1,5:3:floor_1,5:4:floor_1,5:5:floor_1,5:6:floor_1,5:7:floor_1,5:8:floor_1,5:9:floor_1,5:10:floor_1,5:11:floor_1,5:12:floor_1,5:13:floor_1,6:0:floor_1,6:1:floor_1,6:2:floor_1,6:3:floor_1,6:4:floor_1,6:5:floor_1,6:6:floor_1,6:7:floor_1,6:8:floor_1,6:9:floor_1,6:10:floor_1,6:11:floor_1,6:12:floor_1,6:13:floor_1,7:0:floor_1,7:1:floor_1,7:2:floor_1,7:3:floor_1,7:4:floor_1,7:5:floor_1,7:6:floor_1,7:7:floor_1,7:8:floor_1,7:9:floor_1,7:10:floor_1,7:11:floor_1,7:12:floor_1,7:13:floor_1,8:0:floor_1,8:1:floor_1,8:2:floor_1,8:3:floor_1,8:4:floor_1,8:5:floor_1,8:6:floor_1,8:7:floor_1,8:8:floor_1,8:9:floor_1,8:10:floor_1,8:11:floor_1,8:12:floor_1,8:13:floor_1,9:0:floor_1,9:1:floor_1,9:2:floor_1,9:3:floor_1,9:4:floor_1,9:5:floor_1,9:6:floor_1,9:7:floor_1,9:8:floor_1,9:9:floor_1,9:10:floor_1,9:11:floor_1,9:12:floor_1,9:13:floor_1,10:0:floor_1,10:1:floor_1,10:2:floor_1,10:3:floor_1,10:4:floor_1,10:5:floor_1,10:6:floor_1,10:7:floor_1,10:8:floor_1,10:9:floor_1,10:10:floor_1,10:11:floor_1,10:12:floor_1,10:13:floor_1,11:0:floor_1,11:1:floor_1,11:2:floor_1,11:3:floor_1,11:4:floor_1,11:5:floor_1,11:6:floor_1,11:7:floor_1,11:8:floor_1,11:9:floor_1,11:10:floor_1,11:11:floor_1,11:12:floor_1,11:13:floor_1,12:0:floor_1,12:1:floor_1,12:2:floor_1,12:3:floor_1,12:4:floor_1,12:5:floor_1,12:6:floor_1,12:7:floor_1,12:8:floor_1,12:9:floor_1,12:10:floor_1,12:11:floor_1,12:12:floor_1,12:13:floor_1,13:0:floor_1,13:1:floor_1,13:2:floor_1,13:3:floor_1,13:4:floor_1,13:5:floor_1,13:6:floor_1,13:7:floor_1,13:8:floor_1,13:9:floor_1,13:10:floor_1,13:11:floor_1,13:12:floor_1,13:13:floor_1,],}}",
+             "traps":"3.5:8.5:2,4.5:8.5:2,11.5:8.5:2,10.5:8.5:2,",
+             "mobs":"7.5:10.5:Boss:NORMAL,",
+             "decors":"",
+             "portals":"7.5:2.5:0:0,"
+          }
+       ]
+    },
+    "tower":[
+       
+    ],
+    "publicShop":[
+       
+    ]
+ }

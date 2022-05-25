@@ -1,0 +1,1272 @@
+fileFormatVersion: 2
+guid: d1b80e83c01765d4694c746d773ba024
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5726424168319688653
+    second: 16x16 Mage 1_0
+  - first:
+      213: -192521770673177635
+    second: 16x16 Mage 1_1
+  - first:
+      213: 3528864937704040935
+    second: 16x16 Mage 1_2
+  - first:
+      213: -8009221932272769646
+    second: 16x16 Mage 1_3
+  - first:
+      213: -6101363425620795389
+    second: 16x16 Mage 1_4
+  - first:
+      213: -4329871350184379944
+    second: 16x16 Mage 1_5
+  - first:
+      213: -140244111938977307
+    second: 16x16 Mage 1_6
+  - first:
+      213: 7538463140377290748
+    second: 16x16 Mage 1_7
+  - first:
+      213: 4560697672285073151
+    second: 16x16 Mage 1_8
+  - first:
+      213: 5689807983274557878
+    second: 16x16 Mage 1_9
+  - first:
+      213: -4654215175739252953
+    second: 16x16 Mage 1_10
+  - first:
+      213: -6126553013760671349
+    second: 16x16 Mage 1_11
+  - first:
+      213: 1206367792024509238
+    second: 16x16 Mage 1_12
+  - first:
+      213: -3998877292416726009
+    second: 16x16 Mage 1_13
+  - first:
+      213: 7261203448053274098
+    second: 16x16 Mage 1_14
+  - first:
+      213: -7693063399808476227
+    second: 16x16 Mage 1_15
+  - first:
+      213: 2867179032343775472
+    second: 16x16 Mage 1_16
+  - first:
+      213: -4797049577132355775
+    second: 16x16 Mage 1_17
+  - first:
+      213: -1205931449809557804
+    second: 16x16 Mage 1_18
+  - first:
+      213: -8863944854848059591
+    second: 16x16 Mage 1_19
+  - first:
+      213: 2037825798626107811
+    second: 16x16 Mage 1_20
+  - first:
+      213: 816718635443889349
+    second: 16x16 Mage 1_21
+  - first:
+      213: 5643098354436266747
+    second: 16x16 Mage 1_22
+  - first:
+      213: -4748294537212936810
+    second: 16x16 Mage 1_23
+  - first:
+      213: 1106035766607472987
+    second: 16x16 Mage 1_24
+  - first:
+      213: 2346574706902131762
+    second: 16x16 Mage 1_25
+  - first:
+      213: 717936392478082648
+    second: 16x16 Mage 1_26
+  - first:
+      213: -7099477839942250136
+    second: 16x16 Mage 1_27
+  - first:
+      213: -1450941988952900145
+    second: 16x16 Mage 1_28
+  - first:
+      213: -8020476972189758745
+    second: 16x16 Mage 1_29
+  - first:
+      213: -5432803047980831889
+    second: 16x16 Mage 1_30
+  - first:
+      213: -3103277510557090148
+    second: 16x16 Mage 1_31
+  - first:
+      213: -3733858889857453857
+    second: 16x16 Mage 1_32
+  - first:
+      213: -9126961160540562342
+    second: 16x16 Mage 1_33
+  - first:
+      213: -7518692573066876292
+    second: 16x16 Mage 1_34
+  - first:
+      213: 4152633954109658135
+    second: 16x16 Mage 1_35
+  - first:
+      213: 3713309114207866447
+    second: 16x16 Mage 1_36
+  - first:
+      213: -8287753884361071918
+    second: 16x16 Mage 1_37
+  - first:
+      213: -2783763469415832580
+    second: 16x16 Mage 1_38
+  - first:
+      213: 9014342622421383729
+    second: 16x16 Mage 1_39
+  - first:
+      213: -487770438506269037
+    second: 16x16 Mage 1_40
+  - first:
+      213: -6073681658359826992
+    second: 16x16 Mage 1_41
+  - first:
+      213: -8179041900641910534
+    second: 16x16 Mage 1_42
+  - first:
+      213: 203786819564384211
+    second: 16x16 Mage 1_43
+  - first:
+      213: -7378615879046626466
+    second: 16x16 Mage 1_44
+  - first:
+      213: 3538194950118334722
+    second: 16x16 Mage 1_45
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 16x16 Mage 1_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 464
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330e71e0f87a780b0800000000000000
+      internalID: -5726424168319688653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 464
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbfe773876045df0800000000000000
+      internalID: -192521770673177635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 464
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e92e20d6fb09f030800000000000000
+      internalID: 3528864937704040935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 464
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2952d97561789d090800000000000000
+      internalID: -8009221932272769646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 464
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300ef427a4a935ba0800000000000000
+      internalID: -6101363425620795389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_5
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 396
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d97e1992f439e3c0800000000000000
+      internalID: -4329871350184379944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_6
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 396
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1890629b0cd0ef0800000000000000
+      internalID: -140244111938977307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_7
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 395
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7609229400e9860800000000000000
+      internalID: 7538463140377290748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_8
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 394
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffea08c8e5ada4f30800000000000000
+      internalID: 4560697672285073151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_9
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 395
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b10343073246fe40800000000000000
+      internalID: 5689807983274557878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_10
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 334
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f54dde4f7e86fb0800000000000000
+      internalID: -4654215175739252953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_11
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 335
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81423d6e7c1afaa0800000000000000
+      internalID: -6126553013760671349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_12
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 334
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bd7108d11edb010800000000000000
+      internalID: 1206367792024509238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_13
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 333
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c002d1a422188c0800000000000000
+      internalID: -3998877292416726009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_14
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 272
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f59e03801af4c460800000000000000
+      internalID: 7261203448053274098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_15
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 272
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb5bd3f89fbc3590800000000000000
+      internalID: -7693063399808476227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_16
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 272
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f88c4293244ac720800000000000000
+      internalID: 2867179032343775472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_17
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 272
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f861153d47d6db0800000000000000
+      internalID: -4797049577132355775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_18
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 272
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d621a65cbba34fe0800000000000000
+      internalID: -1205931449809557804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_19
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 272
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93741222e11fcf480800000000000000
+      internalID: -8863944854848059591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_20
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 272
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a16c3954cfc74c10800000000000000
+      internalID: 2037825798626107811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_21
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 272
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c423139541955b00800000000000000
+      internalID: 816718635443889349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_22
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 208
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfad3c01e00505e40800000000000000
+      internalID: 5643098354436266747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_23
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 144
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dbe74a64baa1eb0800000000000000
+      internalID: -4748294537212936810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_24
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 143
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59e3817bad695f00800000000000000
+      internalID: 1106035766607472987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_25
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 144
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23461d36345b09020800000000000000
+      internalID: 2346574706902131762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_26
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 146
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8564bfc585f96f900800000000000000
+      internalID: 717936392478082648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_27
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 146
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8611c7be486997d90800000000000000
+      internalID: -7099477839942250136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_28
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 80
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd73cec2f73ddbe0800000000000000
+      internalID: -1450941988952900145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eacd6720ba81b090800000000000000
+      internalID: -8020476972189758745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_30
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 80
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b617e796eca94b0800000000000000
+      internalID: -5432803047980831889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_31
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 80
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e39c7cb81fee4d0800000000000000
+      internalID: -3103277510557090148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_32
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 80
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0bc9c5f1bae2cc0800000000000000
+      internalID: -3733858889857453857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_33
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 80
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c51336e25865180800000000000000
+      internalID: -9126961160540562342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_34
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 80
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a2bf6c0fc38a790800000000000000
+      internalID: -7518692573066876292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_35
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 80
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7149ee4649e11a930800000000000000
+      internalID: 4152633954109658135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_36
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 80
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e849527f2588330800000000000000
+      internalID: 3713309114207866447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_37
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 13
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d26bc8a0cbfbfc80800000000000000
+      internalID: -8287753884361071918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_38
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 13
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3a2c2afd51e59d0800000000000000
+      internalID: -2783763469415832580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_39
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 13
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13af615ead0691d70800000000000000
+      internalID: 9014342622421383729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_40
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 13
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396b5e8de571b39f0800000000000000
+      internalID: -487770438506269037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_41
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 13
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d538a226b2f5bba0800000000000000
+      internalID: -6073681658359826992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_42
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 13
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0043dc9b43e7e80800000000000000
+      internalID: -8179041900641910534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_43
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 14
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfaa0e580ff3d200800000000000000
+      internalID: 203786819564384211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_44
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 13
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e538e5b93f3e99990800000000000000
+      internalID: -7378615879046626466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 1_45
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 13
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20162eb9f813a1130800000000000000
+      internalID: 3538194950118334722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      16x16 Mage 1_5: -4329871350184379944
+      16x16 Mage 1_31: -3103277510557090148
+      16x16 Mage 1_42: -8179041900641910534
+      16x16 Mage 1_28: -1450941988952900145
+      16x16 Mage 1_44: -7378615879046626466
+      16x16 Mage 1_37: -8287753884361071918
+      16x16 Mage 1_29: -8020476972189758745
+      16x16 Mage 1_4: -6101363425620795389
+      16x16 Mage 1_35: 4152633954109658135
+      16x16 Mage 1_45: 3538194950118334722
+      16x16 Mage 1_17: -4797049577132355775
+      16x16 Mage 1_16: 2867179032343775472
+      16x16 Mage 1_13: -3998877292416726009
+      16x16 Mage 1_22: 5643098354436266747
+      16x16 Mage 1_26: 717936392478082648
+      16x16 Mage 1_23: -4748294537212936810
+      16x16 Mage 1_20: 2037825798626107811
+      16x16 Mage 1_19: -8863944854848059591
+      16x16 Mage 1_14: 7261203448053274098
+      16x16 Mage 1_9: 5689807983274557878
+      16x16 Mage 1_18: -1205931449809557804
+      16x16 Mage 1_3: -8009221932272769646
+      16x16 Mage 1_12: 1206367792024509238
+      16x16 Mage 1_7: 7538463140377290748
+      16x16 Mage 1_25: 2346574706902131762
+      16x16 Mage 1_40: -487770438506269037
+      16x16 Mage 1_24: 1106035766607472987
+      16x16 Mage 1_10: -4654215175739252953
+      16x16 Mage 1_2: 3528864937704040935
+      16x16 Mage 1_32: -3733858889857453857
+      16x16 Mage 1_36: 3713309114207866447
+      16x16 Mage 1_41: -6073681658359826992
+      16x16 Mage 1_1: -192521770673177635
+      16x16 Mage 1_39: 9014342622421383729
+      16x16 Mage 1_0: -5726424168319688653
+      16x16 Mage 1_8: 4560697672285073151
+      16x16 Mage 1_6: -140244111938977307
+      16x16 Mage 1_38: -2783763469415832580
+      16x16 Mage 1_27: -7099477839942250136
+      16x16 Mage 1_34: -7518692573066876292
+      16x16 Mage 1_33: -9126961160540562342
+      16x16 Mage 1_15: -7693063399808476227
+      16x16 Mage 1_30: -5432803047980831889
+      16x16 Mage 1_11: -6126553013760671349
+      16x16 Mage 1_21: 816718635443889349
+      16x16 Mage 1_43: 203786819564384211
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

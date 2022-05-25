@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/UI-UX/StartScene2D.unity
+    guid: 25e6b1ae63914c54587fa23c1452c066
+  - enabled: 1
+    path: Assets/Scenes/UI-UX/2D UI-UX.unity
+    guid: 505701e435b2fdc45bcce74acb588055
+  - enabled: 1
+    path: Assets/Scenes/demo.unity
+    guid: 8bb4fd915e9943c44bd0c6fd3a43ed89
+  - enabled: 1
+    path: Assets/Scenes/SandBox.unity
+    guid: 31440f4d0d47bb748a0aa053d2d410fe
+  - enabled: 1
+    path: Assets/Scenes/RoomEditor.unity
+    guid: 0f53863fa8ab6824cb9327f297e5b2bb
+  - enabled: 1
+    path: Assets/Scenes/Paint.unity
+    guid: 9f53a9319f6c4cd4ea7287330067ed1f
+  - enabled: 1
+    path: Assets/Scenes/Donjon.unity
+    guid: 6d0b27f32be003245ad7759f2997a600
+  - enabled: 1
+    path: Assets/Scenes/UI-UX/GameUi.unity
+    guid: 13402f51d5d7bef45ad58d4ff40feafb
+  - enabled: 1
+    path: Assets/Scenes/UI-UX/DungeonPrevisuUi.unity
+    guid: 56a3ea4d8f565424ead8c94a9798b79c
+  - enabled: 1
+    path: Assets/Scenes/UI-UX/Main Menu.unity
+    guid: 53effa4afab70a247b23cf255d616d36
+  - enabled: 1
+    path: Assets/Scenes/UI-UX/Shop.unity
+    guid: 6c426386adc8a194a9817b79419143c1
+  - enabled: 1
+    path: Assets/Scenes/UI-UX/Inventory.unity
+    guid: 3a2ac236df8843b4185ecdb6623e4b3e
+  - enabled: 1
+    path: Assets/Scenes/UI-UX/Social.unity
+    guid: 97134a453c3ad2641bdffe67d32299a7
+  - enabled: 1
+    path: Assets/Scenes/UI-UX/Player Information.unity
+    guid: 7f1d5c0fc738ca84daf3f5d683b45dca
+  - enabled: 1
+    path: Assets/Scenes/Entities animation.unity
+    guid: 32aba49562751ef4e807159b332f8f6e
+  - enabled: 1
+    path: Assets/Scenes/LoginScreen.unity
+    guid: 18844b60caafb4336b64d409cdd38d89
+  - enabled: 1
+    path: Assets/Scenes/RandomGeneration.unity
+    guid: 2207bd9734edf8d45be0bc10e153e6fc
+  m_configObjects: {}

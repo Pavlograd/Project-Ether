@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5380909458230953171
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5380909458230953182}
+  - component: {fileID: 5380909458230953181}
+  - component: {fileID: 5380909458230953180}
+  m_Layer: 0
+  m_Name: Load
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5380909458230953182
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5380909458230953171}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 86.35793, y: 40.710674, z: -171.36385}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5380909458230953181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5380909458230953171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df8673328052daf4081aca1e1d0c69f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textures: []
+  texturesWall: []
+  tilesGround: []
+  tilesWall: []
+  _wallFilter: {fileID: 2800000, guid: ff2b0f1dcde7a8d42953d71d443e7f90, type: 3}
+--- !u!114 &5380909458230953180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5380909458230953171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205a37b9f31529148a0e8f6c62cb4acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _walls: {fileID: 0}
+  _ground: {fileID: 0}
+  _traps: {fileID: 0}
+  _mobs: {fileID: 0}
+  _decors: {fileID: 0}
+  _prefabDecors: {fileID: 7815643013359539911, guid: 6042e61516c767343bf3d9fc9380375a, type: 3}
+  _portals: {fileID: 0}
+  _trapsPrefab:
+  - {fileID: 8415509713086544927, guid: e51cd93d18be9b24d98f886a6f978c6d, type: 3}
+  - {fileID: 6474270202868001463, guid: cca513a2e92ae0e449b4bc1c5ce9d77c, type: 3}
+  - {fileID: 1788500267363069254, guid: d412b9928fa519a499137b728cdc41b9, type: 3}
+  _mobsPrefab:
+  - {fileID: 5868228268045033810, guid: 9054ff135794701468f379193fe946b8, type: 3}
+  - {fileID: 3621847053368607701, guid: 865f9357e862bc54995f2f06fd8b3595, type: 3}
+  - {fileID: 290898308901763469, guid: 750cf4e0440081c4cacf095deab8d170, type: 3}
+  - {fileID: 5451813284636326907, guid: d89154eabcc199d4b9452d6d6b6d3f29, type: 3}
+  - {fileID: 284178757930375665, guid: b7d5f892907277b40b1d58ba9aad02b6, type: 3}
+  - {fileID: 5868228268045033810, guid: fe4b2b3dec08327489e557f1e05dc741, type: 3}
+  _portalPrefab: {fileID: 5185758264433525242, guid: 751706f82f253024393a8de450832e91, type: 3}
+  _loadTextures: {fileID: 5380909458230953181}
+  activeRoom: 0
+  clear: 0
+  preLoad: 0
+  isStarted: 0
+  offset: 0

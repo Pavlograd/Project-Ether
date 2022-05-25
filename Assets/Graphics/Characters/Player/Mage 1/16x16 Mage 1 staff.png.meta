@@ -1,0 +1,1247 @@
+fileFormatVersion: 2
+guid: 1624a8aee1a327e428a226f7cc7e4b58
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7756532797385248978
+    second: Staff_idle_ground_1
+  - first:
+      213: -6464693658376674257
+    second: Staff_idle_ground_2
+  - first:
+      213: 8405035024669618084
+    second: Staff_idle_ground_3
+  - first:
+      213: 7302773145350995275
+    second: Staff_idle_ground_4
+  - first:
+      213: -2557065783838177816
+    second: Staff_idle_ground_5
+  - first:
+      213: 1534709988119924289
+    second: Staff_idle_air_1
+  - first:
+      213: -6786496761294574586
+    second: Staff_idle_air_2
+  - first:
+      213: -8005439054471985737
+    second: Staff_idle_air_3
+  - first:
+      213: -2281367633953823069
+    second: Staff_idle_air_4
+  - first:
+      213: 985291760008596571
+    second: Staff_idle_air_5
+  - first:
+      213: -519083562126000384
+    second: Staff_fly_1
+  - first:
+      213: -2685650821848957831
+    second: Staff_fly_2
+  - first:
+      213: 8364304568699125576
+    second: Staff_fly_3
+  - first:
+      213: -202185652588323383
+    second: Staff_fly_4
+  - first:
+      213: 8076958916432375626
+    second: Staff_run_1
+  - first:
+      213: 6191343708042038397
+    second: Staff_run_2
+  - first:
+      213: 59360366203700765
+    second: Staff_run_3
+  - first:
+      213: -7526584264288059443
+    second: Staff_run_4
+  - first:
+      213: 7094260620399798116
+    second: Staff_run_5
+  - first:
+      213: -1009726820965741924
+    second: Staff_run_6
+  - first:
+      213: -3298666842934429924
+    second: Staff_run_7
+  - first:
+      213: 6380237279490250796
+    second: Staff_run_8
+  - first:
+      213: -1388243822316144176
+    second: Staff_take_damage_1
+  - first:
+      213: 6525859036684374608
+    second: Staff_dead_1
+  - first:
+      213: -8585294751574543315
+    second: Staff_dead_2
+  - first:
+      213: 3537697832717553795
+    second: Staff_dead_3
+  - first:
+      213: 6401798662578288341
+    second: Staff_ground_attack_4
+  - first:
+      213: 7482300144403072271
+    second: Staff_ground_attack_1
+  - first:
+      213: 3742890110817988936
+    second: Staff_ground_attack_2
+  - first:
+      213: -4134111531955400989
+    second: Staff_ground_attack_3
+  - first:
+      213: -2243323719937050494
+    second: Staff_ground_attack_5
+  - first:
+      213: 481238936897903112
+    second: Staff_ground_attack_6
+  - first:
+      213: -1533350050252001432
+    second: Staff_ground_attack_7
+  - first:
+      213: -1484952917357829269
+    second: Staff_ground_attack_8
+  - first:
+      213: 2424708910379754068
+    second: Staff_ground_attack_9
+  - first:
+      213: -6687673143836669275
+    second: Staff_air_attack_1
+  - first:
+      213: 6503962291831437133
+    second: Staff_air_attack_2
+  - first:
+      213: 6814846422451783848
+    second: Staff_air_attack_3
+  - first:
+      213: -1669534914299967066
+    second: Staff_air_attack_4
+  - first:
+      213: 4895084582583332017
+    second: Staff_air_attack_5
+  - first:
+      213: -5720498565270853569
+    second: Staff_air_attack_6
+  - first:
+      213: -6702974362073670599
+    second: Staff_air_attack_7
+  - first:
+      213: 8791285506796279208
+    second: Staff_air_attack_8
+  - first:
+      213: 4399224251293173269
+    second: Staff_air_attack_9
+  - first:
+      213: 556509527211978990
+    second: Staff_dead_4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Staff_idle_ground_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 464
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f6f2344824b5490800000000000000
+      internalID: -7756532797385248978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_idle_ground_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 464
+        width: 7
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5000011, y: 0.47336662}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24ecbe7e5bc846a0800000000000000
+      internalID: -6464693658376674257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_idle_ground_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 464
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af262ab2dea4a470800000000000000
+      internalID: 8405035024669618084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_idle_ground_4
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 464
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d78e3eb79a85560800000000000000
+      internalID: 7302773145350995275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_idle_ground_5
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 464
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5050fa73a738cd0800000000000000
+      internalID: -2557065783838177816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_idle_air_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 394
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ec12b5a926c4510800000000000000
+      internalID: 1534709988119924289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_idle_air_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 394
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ca2b9e62581d1a0800000000000000
+      internalID: -6786496761294574586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_idle_air_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 394
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b588273897f6e090800000000000000
+      internalID: -8005439054471985737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_idle_air_4
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 394
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6eb106934f650e0800000000000000
+      internalID: -2281367633953823069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_idle_air_5
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 394
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c8e6ba2a57cad00800000000000000
+      internalID: 985291760008596571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_fly_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 334
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f3cbe1048dbc8f0800000000000000
+      internalID: -519083562126000384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_fly_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 334
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97cf4f48ec6aabad0800000000000000
+      internalID: -2685650821848957831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_fly_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 334
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ffc7270baf31470800000000000000
+      internalID: 8364304568699125576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_fly_4
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 334
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cddace5831b13df0800000000000000
+      internalID: -202185652588323383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_run_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 272
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f2067475f171070800000000000000
+      internalID: 8076958916432375626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_run_2
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 272
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c0230ac421ce550800000000000000
+      internalID: 6191343708042038397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_run_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 272
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d160f4540f3e2d000800000000000000
+      internalID: 59360366203700765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_run_4
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 272
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfb01b3d733c8790800000000000000
+      internalID: -7526584264288059443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_run_5
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 272
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467e8fe7270e37260800000000000000
+      internalID: 7094260620399798116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_run_6
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 272
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a072c5ecabcf1f0800000000000000
+      internalID: -1009726820965741924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_run_7
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 272
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17b882cbf7c832d0800000000000000
+      internalID: -3298666842934429924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_run_8
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 272
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2898b270082b8850800000000000000
+      internalID: 6380237279490250796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_take_damage_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 208
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9373d4997fbbce0800000000000000
+      internalID: -1388243822316144176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_dead_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 144
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05258d7e732809a50800000000000000
+      internalID: 6525859036684374608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_dead_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 144
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24bf5809e7ead880800000000000000
+      internalID: -8585294751574543315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_dead_3
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 144
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3809cc17f6d681130800000000000000
+      internalID: 3537697832717553795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_ground_attack_4
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 81
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6bc8627f1c7d850800000000000000
+      internalID: 6401798662578288341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_ground_attack_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 81
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05cff1a65876d760800000000000000
+      internalID: 7482300144403072271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_ground_attack_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 81
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841f0a0a9ba61f330800000000000000
+      internalID: 3742890110817988936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_ground_attack_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 81
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eec3f3177fa0a6c0800000000000000
+      internalID: -4134111531955400989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_ground_attack_5
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 80
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288b1fc56fc1ed0e0800000000000000
+      internalID: -2243323719937050494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_ground_attack_6
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 81
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ad2ed6344bda600800000000000000
+      internalID: 481238936897903112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_ground_attack_7
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 81
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fe66ad04278bae0800000000000000
+      internalID: -1533350050252001432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_ground_attack_8
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 81
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63e4b47033646be0800000000000000
+      internalID: -1484952917357829269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_ground_attack_9
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 81
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452e8e648eb46a120800000000000000
+      internalID: 2424708910379754068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_air_attack_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 17
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa02bf55bc9033a0800000000000000
+      internalID: -6687673143836669275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_air_attack_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 17
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47f525be37b24a50800000000000000
+      internalID: 6503962291831437133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_air_attack_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 17
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a88411f6b2339e50800000000000000
+      internalID: 6814846422451783848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_air_attack_4
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 17
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9c90d47de94d8e0800000000000000
+      internalID: -1669534914299967066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_air_attack_5
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 17
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcee5a1e75dee340800000000000000
+      internalID: 4895084582583332017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_air_attack_6
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 17
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3826e60dd4bc90b0800000000000000
+      internalID: -5720498565270853569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_air_attack_7
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 17
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c5c02e4504af2a0800000000000000
+      internalID: -6702974362073670599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_air_attack_8
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 17
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5d1a7179be00a70800000000000000
+      internalID: 8791285506796279208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_air_attack_9
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 17
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5160d91062f2d0d30800000000000000
+      internalID: 4399224251293173269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Staff_dead_4
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 144
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0379b677e19b700800000000000000
+      internalID: 556509527211978990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Staff_air_attack_1: -6687673143836669275
+      Staff_ground_attack_1: 7482300144403072271
+      Staff_ground_attack_6: 481238936897903112
+      Staff_run_2: 6191343708042038397
+      Staff_idle_air_1: 1534709988119924289
+      Staff_idle_air_2: -6786496761294574586
+      Staff_ground_attack_9: 2424708910379754068
+      Staff_idle_air_5: 985291760008596571
+      Staff_idle_ground_5: -2557065783838177816
+      Staff_idle_air_3: -8005439054471985737
+      Staff_run_5: 7094260620399798116
+      Staff_run_8: 6380237279490250796
+      Staff_air_attack_9: 4399224251293173269
+      Staff_run_4: -7526584264288059443
+      Staff_idle_ground_3: 8405035024669618084
+      Staff_run_3: 59360366203700765
+      Staff_idle_ground_4: 7302773145350995275
+      Staff_air_attack_5: 4895084582583332017
+      Staff_idle_ground_2: -6464693658376674257
+      Staff_ground_attack_5: -2243323719937050494
+      Staff_ground_attack_2: 3742890110817988936
+      Staff_dead_1: 6525859036684374608
+      Staff_dead_3: 3537697832717553795
+      Staff_air_attack_3: 6814846422451783848
+      Staff_fly_3: 8364304568699125576
+      Staff_run_1: 8076958916432375626
+      Staff_air_attack_7: -6702974362073670599
+      Staff_air_attack_8: 8791285506796279208
+      Staff_take_damage_1: -1388243822316144176
+      Staff_idle_ground_1: -7756532797385248978
+      Staff_fly_1: -519083562126000384
+      Staff_air_attack_2: 6503962291831437133
+      Staff_run_7: -3298666842934429924
+      Staff_dead_2: -8585294751574543315
+      Staff_ground_attack_4: 6401798662578288341
+      Staff_dead_4: 556509527211978990
+      Staff_air_attack_6: -5720498565270853569
+      Staff_fly_2: -2685650821848957831
+      Staff_ground_attack_8: -1484952917357829269
+      Staff_idle_air_4: -2281367633953823069
+      Staff_run_6: -1009726820965741924
+      Staff_air_attack_4: -1669534914299967066
+      Staff_fly_4: -202185652588323383
+      Staff_ground_attack_7: -1533350050252001432
+      Staff_ground_attack_3: -4134111531955400989
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

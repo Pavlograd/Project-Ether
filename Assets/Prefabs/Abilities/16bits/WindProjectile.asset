@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e35b41ead51e2c24eb0052781351872c, type: 3}
+  m_Name: WindProjectile
+  m_EditorClassIdentifier: 
+  name: WindProjectile
+  sfx: 1
+  cooldownTime: 6
+  thumbnail: {fileID: -2772506134743987998, guid: ee9990b4196e8814b87f078d95fa1cd1, type: 3}
+  abilityType: 4
+  damages: 15
+  lvl: 0
+  id: 0
+  parentId: 10
+  geared: 0
+  _particles: {fileID: 6984933890154738904, guid: e7a47e023fa389243b37b109ab146568, type: 3}
+  state: 5
+  _speed: 15

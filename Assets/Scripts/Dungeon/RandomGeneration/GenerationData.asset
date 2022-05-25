@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287b3313630ff8b49bde2c7c40ff7e01, type: 3}
+  m_Name: GenerationData
+  m_EditorClassIdentifier: 
+  _randomSizeRooms:
+  - minimumLevel: 0
+    minSize: 10
+    maxSize: 26
+    minTraps: 0
+    maxTraps: 2
+    minMobs: 0
+    maxMobs: 2
+    name: small
+    probability: 100
+    probabilityGreenTrap: 50
+    probabilityRedTrap: 0
+  - minimumLevel: 30
+    minSize: 22
+    maxSize: 26
+    minTraps: 5
+    maxTraps: 20
+    minMobs: 5
+    maxMobs: 20
+    name: gigantesc
+    probability: 1
+    probabilityGreenTrap: 0
+    probabilityRedTrap: 0
+  - minimumLevel: 20
+    minSize: 18
+    maxSize: 22
+    minTraps: 3
+    maxTraps: 18
+    minMobs: 3
+    maxMobs: 18
+    name: very-large
+    probability: 5
+    probabilityGreenTrap: 0
+    probabilityRedTrap: 0
+  - minimumLevel: 10
+    minSize: 16
+    maxSize: 18
+    minTraps: 2
+    maxTraps: 15
+    minMobs: 2
+    maxMobs: 15
+    name: large
+    probability: 25
+    probabilityGreenTrap: 0
+    probabilityRedTrap: 0
+  - minimumLevel: 5
+    minSize: 12
+    maxSize: 16
+    minTraps: 1
+    maxTraps: 6
+    minMobs: 1
+    maxMobs: 6
+    name: medium
+    probability: 50
+    probabilityGreenTrap: 0
+    probabilityRedTrap: 0
+  - minimumLevel: 0
+    minSize: 9
+    maxSize: 12
+    minTraps: 0
+    maxTraps: 2
+    minMobs: 0
+    maxMobs: 2
+    name: small
+    probability: 100
+    probabilityGreenTrap: 0
+    probabilityRedTrap: 0
+  _texturesPacks:
+  - grounds:
+    - {fileID: -4586592125095203082, guid: 21be7122398e0be4d88c6c8a21a0f6fc, type: 3}
+    walls:
+    - {fileID: -474526850436928060, guid: 21be7122398e0be4d88c6c8a21a0f6fc, type: 3}
+  - grounds:
+    - {fileID: 21300000, guid: aae20791a832cb448985432b2ad366ef, type: 3}
+    - {fileID: 21300000, guid: 53ccd01971ab71f40bc220ed963d908e, type: 3}
+    - {fileID: 21300000, guid: bafe5afdac7cef74982c9fc0fc52cf46, type: 3}
+    - {fileID: 21300000, guid: c6e4fd3b6c278984ca321b34bd4f2c74, type: 3}
+    walls:
+    - {fileID: 21300000, guid: f092acd5f90d50c4591e10db6a19fbde, type: 3}
+    - {fileID: 21300000, guid: 846f77d09d4ef164f884226abb575e82, type: 3}
+    - {fileID: 21300000, guid: 5134ebb7414ebd140a4b7af5b923143e, type: 3}
+  - grounds:
+    - {fileID: 21300000, guid: 13b255d02d56cb84fbd73ad08ce01cd5, type: 3}
+    - {fileID: 21300000, guid: 54fe3125ea82889429a8955f133bd94e, type: 3}
+    - {fileID: 21300000, guid: c28c8d0062692694abec295aa5278dcf, type: 3}
+    - {fileID: 21300000, guid: f275a2d3d8f6db54a90b49a596b2b35a, type: 3}
+    - {fileID: 21300000, guid: 88a048a4da2d15f4ca906d9f5b359c58, type: 3}
+    walls:
+    - {fileID: 21300000, guid: 5744e3eee88e64145bc416b14c466f88, type: 3}
+    - {fileID: 21300000, guid: 5721a0820e2240c42a9eafee0e170dbd, type: 3}
+  - grounds:
+    - {fileID: 21300000, guid: 81c5f4dd1daa67347936434c0051a098, type: 3}
+    - {fileID: 21300000, guid: d51fc21c398c6244c9c9c26e678fb40a, type: 3}
+    walls:
+    - {fileID: 21300000, guid: 07f6125ace785c743b01868b1aaa84ba, type: 3}
+  portal: {fileID: 5185758264433525242, guid: 751706f82f253024393a8de450832e91, type: 3}
+  mobs:
+  - minimumLevel: 5
+    prefab: {fileID: 3621847053368607701, guid: 865f9357e862bc54995f2f06fd8b3595, type: 3}
+    probability: 15
+  - minimumLevel: 5
+    prefab: {fileID: 290898308901763469, guid: 750cf4e0440081c4cacf095deab8d170, type: 3}
+    probability: 25
+  - minimumLevel: 10
+    prefab: {fileID: 5451813284636326907, guid: d89154eabcc199d4b9452d6d6b6d3f29, type: 3}
+    probability: 5
+  - minimumLevel: 10
+    prefab: {fileID: 284178757930375665, guid: b7d5f892907277b40b1d58ba9aad02b6, type: 3}
+    probability: 5
+  - minimumLevel: 0
+    prefab: {fileID: 5868228268045033810, guid: 9054ff135794701468f379193fe946b8, type: 3}
+    probability: 100
+  - minimumLevel: 1500
+    prefab: {fileID: 5868228268045033810, guid: fe4b2b3dec08327489e557f1e05dc741, type: 3}
+    probability: 0
+  traps:
+  - minimumLevel: 10
+    prefab: {fileID: 6474270202868001463, guid: cca513a2e92ae0e449b4bc1c5ce9d77c, type: 3}
+    probability: 5
+  - minimumLevel: 5
+    prefab: {fileID: 1788500267363069254, guid: d412b9928fa519a499137b728cdc41b9, type: 3}
+    probability: 25
+  - minimumLevel: 0
+    prefab: {fileID: 8415509713086544927, guid: e51cd93d18be9b24d98f886a6f978c6d, type: 3}
+    probability: 100
+  _patterns:
+  - sprites:
+    - {fileID: 21300000, guid: cab7bf313fc7ff64e8966e205ffeb86c, type: 3}
+    - {fileID: 21300000, guid: 5fcde4b6cf8b82c4296bae1d9cea6883, type: 3}
+    - {fileID: 21300000, guid: 8f523205f0958af4eb966b290d5537f6, type: 3}
+  - sprites:
+    - {fileID: 21300000, guid: aa66b36756ec734408d5520a82d8dad8, type: 3}
+    - {fileID: 21300000, guid: deddbd0fe7f1d144280941fa7e94cda0, type: 3}
+    - {fileID: 21300000, guid: a9b180b465514194cae74b7a3c5cd4db, type: 3}
+  - sprites:
+    - {fileID: 21300000, guid: ac4bd7f9b54d4724485fea0de45e5fbd, type: 3}
+    - {fileID: 21300000, guid: 8eb4aceec85a5ae438a5986939dd09f1, type: 3}
+    - {fileID: 21300000, guid: caea12c55ccd7664992b63b5e06612ad, type: 3}
+  - sprites:
+    - {fileID: 21300000, guid: a0c8bb6aad07b87428237c0dd97fbe91, type: 3}
+    - {fileID: 21300000, guid: 48dbfcba1e9d26f4ea1d515ecff795a8, type: 3}
+    - {fileID: 21300000, guid: 3271f2daaba4dc94883f0b1f5a8d3511, type: 3}
+  - sprites:
+    - {fileID: 21300000, guid: c802308126aadbe4f88d1a69c0b02ac0, type: 3}
+    - {fileID: 21300000, guid: 6e7153ba9a3cd784688f474b29f24ff1, type: 3}
+    - {fileID: 21300000, guid: b08b8271c58d1b74e810fec6d793650a, type: 3}
+  boss: {fileID: 3396350541365593682, guid: 906ff7b5b97c9fd488847db351918b90, type: 3}
+  _abilitiesAvailableData:
+  - {fileID: 11400000, guid: a08ea0414fc0d71469394e280a1426b1, type: 2}
+  - {fileID: 11400000, guid: 8105d7f4ba4cec242bcb91a22e712c8c, type: 2}
+  - {fileID: 11400000, guid: e837b94b3960a924d8c747bfb649e326, type: 2}
+  - {fileID: 11400000, guid: 1402d24e91668ed4b9768fd2be34d05c, type: 2}
+  - {fileID: 11400000, guid: 1d001851070593643a72e41f87eab9cc, type: 2}
+  - {fileID: 11400000, guid: dad7dfe4eb4a8c24d92a2fc457d4f1bd, type: 2}
+  - {fileID: 11400000, guid: bc92e2d37a1411c4692a3e1e79b36380, type: 2}
+  - {fileID: 11400000, guid: 1bb24cb9dc92dbe49850381f899cbc2c, type: 2}
+  - {fileID: 11400000, guid: 9f3bc51825ce37b4ea8b0690220e2d8f, type: 2}
+  - {fileID: 11400000, guid: ee322e6dad04e7e40b987c3372cc2afc, type: 2}
+  - {fileID: 11400000, guid: cca4cc26f294ae742a692d009d69b809, type: 2}
+  - {fileID: 11400000, guid: c69f64eb65913b34fb939f1b160b0cb3, type: 2}

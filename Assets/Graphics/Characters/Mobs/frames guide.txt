@@ -1,0 +1,5 @@
+row 1 = idle (1 to 5)
+row 2 = walk (6 to 13)
+row 3 = attack (14 to 20)
+row 4 = taking damage (21)
+row 5 = dead (22 to 30)

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e35b41ead51e2c24eb0052781351872c, type: 3}
+  m_Name: AIFireProjectile
+  m_EditorClassIdentifier: 
+  name: FireProjectileMob
+  sfx: 0
+  cooldownTime: 1.5
+  thumbnail: {fileID: -4239029514210759221, guid: e89ec820965c55449b3b245f1b39cbba, type: 3}
+  abilityType: 4
+  damages: 2.5
+  lvl: 0
+  id: 0
+  _particles: {fileID: 2208556315079534543, guid: aaa12d92d53d93e4c90b1c678c98cb17, type: 3}
+  state: 0
+  _speed: 15
