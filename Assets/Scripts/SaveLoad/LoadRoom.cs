@@ -1,9 +1,19 @@
+using System.Net.Mime;
 using System.IO;
 using System.Collections;
 using System.Globalization;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Tilemaps;
+using TMPro;
+
+
+// LOAD A ROOM OF THE DONJON
+// USE IT FOR PLAYING OR LOADING ONE ROOM
+// USED BY LoadDonjon.cs TO LOAD ROOMS ONE BY ONE
+// USED BY SANDBOX's scene to LOAD INFOS OF ONE ROOM
+
 
 public class LoadRoom : MonoBehaviour
 {
@@ -18,13 +28,15 @@ public class LoadRoom : MonoBehaviour
     [SerializeField] private GameObject[] _mobsPrefab;
     [SerializeField] private GameObject _portalPrefab;
     [SerializeField] private LoadTextures _loadTextures;
-    Vector2Int _size;
+    public Vector2Int _size;
     public int activeRoom = 0;
     public bool clear = true;
     public bool preLoad = true;
     public bool isStarted = false;
     public int offset = 0;
     private bool groundTile = false;
+    [SerializeField] private TMP_Text text;
+    public int initialY = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -90,9 +102,42 @@ public class LoadRoom : MonoBehaviour
         }
 
         // Empty then replace the tiles
+        if (text != null)
+        {
+            text.text += positions[0].ToString();
+            PrintDebug.Maurin("first tile loaded:" + text.text);
+        }
 
         if (clear) tilemap.ClearAllTiles();
         tilemap.SetTiles(positions, tileArray);
+
+        TestSave();
+    }
+
+    void TestSave()
+    {
+        BoundsInt bounds = _walls.cellBounds;
+
+        PrintDebug.Maurin(bounds);
+        TileBase[] allTiles = _walls.GetTilesBlock(bounds);
+        bool debugValue = false;
+
+        for (int x = 0; x < bounds.size.x; x++)
+        {
+            for (int y = 0; y < bounds.size.y; y++)
+            {
+                TileBase tile = allTiles[x + y * bounds.size.x];
+
+                if (tile != null)
+                {
+                    if (text != null && !debugValue)
+                    {
+                        debugValue = true;
+                        PrintDebug.Maurin("first tile saved test: " + x + ":" + y + ":" + tile.name + ",");
+                    }
+                }
+            }
+        }
     }
 
     void LoadTraps(string[] traps)
@@ -197,7 +242,7 @@ public class LoadRoom : MonoBehaviour
 
     public void LoadRoomFromRoom(RoomClass roomClass)
     {
-        string room = roomClass.room;
+        /*string room = roomClass.room;
 
         room = room.Replace("{Room:{Walls:[", "");
         room = room.Replace(",Ground:[", "");
@@ -208,6 +253,7 @@ public class LoadRoom : MonoBehaviour
         string[] ground = array[1].Split(',');
 
         groundTile = false;
+        initialY = int.Parse(walls[0].Split(':')[1]);
         LoadTileMap(walls, _walls);
         groundTile = true;
         LoadTileMap(ground, _ground);
@@ -216,7 +262,7 @@ public class LoadRoom : MonoBehaviour
         LoadDecors(roomClass.decors.Split(','));
         LoadPortals(roomClass.portals.Split(','));
 
-        if (clear) MoveCamera(walls);
+        if (clear) MoveCamera(walls);*/
     }
 
     public void LoadRoomFromSave(int index)

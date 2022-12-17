@@ -12,16 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e35b41ead51e2c24eb0052781351872c, type: 3}
   m_Name: IceProjectile
   m_EditorClassIdentifier: 
-  name: IceProejctile
+  name: IceProjectile
   sfx: 1
   cooldownTime: 10
   thumbnail: {fileID: 2165125049372576801, guid: 68ec1a7cacac6cf4089e6d220abe6987, type: 3}
   abilityType: 4
   damages: 10
-  lvl: 0
+  lvl: 1
   id: 0
   parentId: 3
   geared: 0
   _particles: {fileID: 4078940644628890981, guid: 361c6b127b096284cb65c696934b4167, type: 3}
   state: 2
+  tierUpgradesValue:
+  - 0
+  - 5
+  - 10
+  - 15
+  - 20
   _speed: 15

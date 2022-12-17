@@ -49,7 +49,7 @@ public class sellItem : MonoBehaviour
 
         if (File.Exists(Application.persistentDataPath + "/ComShopItem.json"))
         {
-            string jsonShop = JsonUtility.ToJson(ShopList);
+           /* string jsonShop = JsonUtility.ToJson(ShopList);
             ShopList = JsonUtility.FromJson<ComShopListClass>(jsonShop);
 
 
@@ -62,7 +62,7 @@ public class sellItem : MonoBehaviour
             //Debug.Log(Application.persistentDataPath);
             ShopList.items.Add(Item);
             string json = JsonUtility.ToJson(ShopList);
-            File.WriteAllText(Application.persistentDataPath + "/ComShopItem.json", json);
+            File.WriteAllText(Application.persistentDataPath + "/ComShopItem.json", json);*/
         }
     }
 }

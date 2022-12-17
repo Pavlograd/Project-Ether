@@ -9,10 +9,16 @@ public class TextureGenerator : MonoBehaviour
 {
     public bool save = false;
     [SerializeField] Texture2D _wallFilter;
+    [SerializeField] List<Color[]> historyColors; // History if you want to undo
+    [SerializeField] Color[] futurColors; // History if you want to undo what you just undo
+    Brush _brush;
+    string id = "";
 
     void Start()
     {
+        _brush = GameObject.Find("Brush").GetComponent<Brush>();
         InvokeRepeating("GenerateTexture", 1f, 1f);
+        //gameObject.AddComponent<Image>();
     }
 
     public void SaveTexture()
@@ -20,20 +26,19 @@ public class TextureGenerator : MonoBehaviour
         save = true;
     }
 
+    public void SetId(string _id)
+    {
+        id = _id;
+    }
+
     public void GenerateTexture()
     {
         Texture2D texture = new Texture2D(16, 16);
         var path = Application.dataPath + "/Resources/Textures/";
-        GameObject[] pixelsGO = GameObject.FindGameObjectsWithTag("Pixel");
-        Color[] pixels = new Color[pixelsGO.Length];
+        Color[] pixels = _brush.GetPixelsAsColors();
 
         texture.filterMode = FilterMode.Point;
         texture.wrapMode = TextureWrapMode.Clamp;
-
-        for (int i = 0; i < pixelsGO.Length; ++i)
-        {
-            pixels[i] = pixelsGO[i].GetComponent<Pixel>().color;
-        }
 
         texture.SetPixels(pixels);
 
@@ -61,21 +66,23 @@ public class TextureGenerator : MonoBehaviour
 
         renderer.sprite = Sprite.Create(texture, new Rect(0, 0, 16, 16), new Vector2(0.5f, 0.5f));
         renderer.sprite.name = Random.Range(0, 256) + "Plop";
-        renderer.material.mainTexture = texture;
+        //renderer.material.te = texture;
 
-        if (!Directory.Exists(path))
+        /*if (!Directory.Exists(path))
         {
             Directory.CreateDirectory(path);
-        }
+        }*/
 
         if (save)
         {
+            Debug.Log("Save texture.....");
+
             save = false;
 
             // No Coroutine here
-            bool succes = API.PostTexture(System.Convert.ToBase64String(texture.EncodeToPNG()));
+            bool success = API.PostTexture(id, System.Convert.ToBase64String(texture.EncodeToPNG()));
 
-            Debug.Log("Texture has been posted : " + succes);
+            Debug.Log("Texture has been posted : " + success);
 
             // Reload scene to prevent user thinking they can modify their texture
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);

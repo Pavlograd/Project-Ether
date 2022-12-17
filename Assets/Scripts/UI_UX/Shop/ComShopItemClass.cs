@@ -7,12 +7,9 @@ using System;
 [Serializable]
 public class ComShopItemClass
 {
+    public uint seller = 654;
     public uint id = 654;
-    public string name = "toto";
-    public uint moneyType = 25;
+    public string texture = "toto";
     public int price = 1000;
-    public bool craft = false;
-    public bool spell = false;
-    public int quantity = 10;
-    public uint ownerID = 654;
+    
 }

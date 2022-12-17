@@ -8,7 +8,13 @@ public enum SFX {
     FIRE_PROJECTILE,
     ROCK,
     BUFF,
-    COINS
+    COINS,
+    UI_SWITCH,
+    BUTTON_CLICK,
+    TELEPORT,
+    POWER_UP,
+    POWER_UP_SUCCESS,
+    POWER_UP_FAILURE,
 }
 
 public enum Music {
@@ -28,6 +34,8 @@ public class AudioManager : Singleton<AudioManager>
     private Dictionary<Music, AudioClip> _musicRepository = new Dictionary<Music, AudioClip>();
 
     [SerializeField] private AudioMixer _mixer;
+    [SerializeField] private float _defaultMusicVolume = -20f;
+    [SerializeField] private float _defaultSfxVolume = -10f;
 
     [Header("Audio Sources")]
     [SerializeField] private AudioSource _sfxAudioSource;
@@ -54,11 +62,18 @@ public class AudioManager : Singleton<AudioManager>
         base.Awake();
     }
 
+    public AudioClip GetSfxAudioClip(SFX sfxId)
+    {
+        AudioClip clip;
+        _sfxRepository.TryGetValue(sfxId, out clip);
+        return clip;
+    }
+
     public void PlaySoundEffect(SFX SFX_ID)
     {
         if (_sfxRepository.ContainsKey(SFX_ID)) {
             _sfxAudioSource.clip = _sfxRepository[SFX_ID];
-            _sfxAudioSource.Play();
+            _sfxAudioSource.PlayOneShot(_sfxAudioSource.clip);
         }
     }
 
@@ -90,26 +105,54 @@ public class AudioManager : Singleton<AudioManager>
 
     public void MuteMusic(bool mute)
     {
-        _musicAudioSource.mute = mute;
+        if (mute) {
+            SetMusicVolume(-80);
+        } else {
+            SetMusicVolume(_defaultMusicVolume);
+        }
     }
 
     public void MuteSfx(bool mute)
     {
-        _sfxAudioSource.mute = mute;
+        if (mute) {
+            SetSfxVolume(-80);
+        } else {
+            SetSfxVolume(_defaultSfxVolume);
+        }
     }
+
+    // public void MuteMusic()
+    // {
+    //     _mixer.GetFloat("MusicVolume", out float currentVolume);
+    //     if (currentVolume == -80) {
+    //         MuteMusic(false);
+    //     } else {
+    //         MuteMusic(true);
+    //     }
+    // }
+
+    // public void MuteSfx()
+    // {
+    //     _mixer.GetFloat("SfxVolume", out float currentVolume);
+    //     if (currentVolume == -80) {
+    //         MuteSfx(false);
+    //     } else {
+    //         MuteSfx(true);
+    //     }
+    // }
 
     public void SetMusicVolume(float value)
     {
-        _mixer.SetFloat("MusicVolume", Mathf.Log10(value) * 20);
+        _mixer.SetFloat("MusicVolume", value);
     }
 
     public void SetSfxVolume(float value)
     {
-        _mixer.SetFloat("SfxVolume", Mathf.Log10(value) * 20);
+        _mixer.SetFloat("SfxVolume", value);
     }
 
     public void SetMasterVolume(float value)
     {
-        _mixer.SetFloat("MasterVolume", Mathf.Log10(value) * 20);
+        _mixer.SetFloat("MasterVolume", value);
     }
 }

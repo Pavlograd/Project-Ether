@@ -1,17 +1,18 @@
 using UnityEngine;
-using System.Collections;
 using System.Collections.Generic;
 using System;
 
-
 public class addLoot : MonoBehaviour
 {
+    // !!!!!!!
+    // I AM NOT SURE THIS SCRIPT IS USED ANYMORE
+    // !!!!!!!
     [SerializeField] private List<Ability> _abilitiesAvailableData;// TEMPORAIRE : en attente de la BDD pour stocker les abilities que le joueur peut équiper
     private API_inventories InventoryList;
 
     void Start()
     {
-        addLootToInv();
+        // addLootToInv();
     }
 
     void addLootToInv() {

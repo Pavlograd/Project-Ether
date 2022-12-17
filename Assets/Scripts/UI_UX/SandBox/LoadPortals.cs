@@ -24,7 +24,7 @@ public class LoadPortals : MonoBehaviour
         string fileContents = File.ReadAllText(Application.persistentDataPath + "/save.json");
         PlayerClass player = JsonUtility.FromJson<PlayerClass>(fileContents);
 
-        string[] portals = player.donjon.rooms[_roomLoader.activeRoom].portals.Split(',');
+        string[] portals = new string[1]; //player.donjon.rooms[_roomLoader.activeRoom].portals.Split(',');
 
         Vector3 position = new Vector3(250.0f, 850.0f, 0.0f);
         RectTransform contentTransform = _content.GetComponent<RectTransform>();

@@ -7,7 +7,7 @@ using UnityEngine.EventSystems;
 public class Pixel : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     public Color color;
-    Image _image;
+    public Image _image;
     Brush _brush;
 
     void Awake()
@@ -21,24 +21,30 @@ public class Pixel : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, I
     void Start()
     {
         _brush = GameObject.Find("Brush").GetComponent<Brush>();
+        _brush.pixels.Add(this);
     }
 
     // When brush click on the pixel
     public void OnPointerClick(PointerEventData eventData)
     {
-        color = _brush.color;
-        _image.color = color;
+        //color = _brush.color;
+        //_image.color = color;
+
+        _brush.Paint(this, true);
+
     }
 
     // When brush is over
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if (Input.GetMouseButton(0))
+        _brush.Paint(this, Input.GetMouseButton(0));
+
+        /*if (Input.GetMouseButton(0))
         {
             color = _brush.color;
         }
 
-        _image.color = _brush.color;
+        _image.color = _brush.color;*/
     }
 
     // When brush is not over anymore

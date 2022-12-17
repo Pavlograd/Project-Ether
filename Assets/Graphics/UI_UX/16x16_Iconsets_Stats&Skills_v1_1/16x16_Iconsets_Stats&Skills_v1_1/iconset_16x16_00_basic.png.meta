@@ -423,7 +423,7 @@ TextureImporter:
       213: 3025867204375311022
     second: iconset_16x16_00_basic_139
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -444,6 +444,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -482,6 +483,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -509,6 +511,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -3472,6 +3498,147 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      iconset_16x16_00_basic_102: 6656170461374729402
+      iconset_16x16_00_basic_43: -7068564625245476081
+      iconset_16x16_00_basic_8: -79795054852707188
+      iconset_16x16_00_basic_62: -6400809824337793584
+      iconset_16x16_00_basic_2: 8357314358303327512
+      iconset_16x16_00_basic_16: 6618179849709313660
+      iconset_16x16_00_basic_115: 7918324239477712994
+      iconset_16x16_00_basic_22: -7726433219149210781
+      iconset_16x16_00_basic_60: -300591102433586815
+      iconset_16x16_00_basic_24: -2672862392905539420
+      iconset_16x16_00_basic_52: 5194633675299026457
+      iconset_16x16_00_basic_77: 1501954838811601291
+      iconset_16x16_00_basic_84: -8821319877712924784
+      iconset_16x16_00_basic_14: -1857590467354927590
+      iconset_16x16_00_basic_104: -2390409331764146744
+      iconset_16x16_00_basic_126: 2838362311616897809
+      iconset_16x16_00_basic_94: 2920769381699977917
+      iconset_16x16_00_basic_108: -8245222072473833411
+      iconset_16x16_00_basic_134: -3724892169956224524
+      iconset_16x16_00_basic_23: 8772393632599784468
+      iconset_16x16_00_basic_64: -3837205781072330169
+      iconset_16x16_00_basic_99: 1050870268918116773
+      iconset_16x16_00_basic_7: -1695885474227828202
+      iconset_16x16_00_basic_117: -6642248707716666127
+      iconset_16x16_00_basic_9: -3230518984330726602
+      iconset_16x16_00_basic_96: -6937184217801364964
+      iconset_16x16_00_basic_32: 4339789458076063157
+      iconset_16x16_00_basic_51: -8354797333351038313
+      iconset_16x16_00_basic_3: 2306120624529210556
+      iconset_16x16_00_basic_100: 1279034594179136892
+      iconset_16x16_00_basic_116: -5755902413664818475
+      iconset_16x16_00_basic_118: -5175784189991465280
+      iconset_16x16_00_basic_137: -7215651423086609966
+      iconset_16x16_00_basic_48: 5783498600183843325
+      iconset_16x16_00_basic_70: -7130250514588507576
+      iconset_16x16_00_basic_119: -3873989955000897946
+      iconset_16x16_00_basic_106: 7016320549183805885
+      iconset_16x16_00_basic_13: 3512944464554431870
+      iconset_16x16_00_basic_112: 31253478258741455
+      iconset_16x16_00_basic_76: 507770428888298988
+      iconset_16x16_00_basic_0: 5234401898292279810
+      iconset_16x16_00_basic_124: 6511214789813666049
+      iconset_16x16_00_basic_107: 6876417314942603312
+      iconset_16x16_00_basic_111: 5835633946321111617
+      iconset_16x16_00_basic_93: 8677335979933947090
+      iconset_16x16_00_basic_19: 6639500930135545222
+      iconset_16x16_00_basic_66: -6805627853102932952
+      iconset_16x16_00_basic_39: 2936835675503913398
+      iconset_16x16_00_basic_120: -892596500840218301
+      iconset_16x16_00_basic_80: -2656191565721661195
+      iconset_16x16_00_basic_138: -3101909281791752206
+      iconset_16x16_00_basic_1: -1812568078990737814
+      iconset_16x16_00_basic_74: -3125288183019384550
+      iconset_16x16_00_basic_121: -7495823428988584254
+      iconset_16x16_00_basic_78: -7193197963201768086
+      iconset_16x16_00_basic_83: 2074728182690628720
+      iconset_16x16_00_basic_38: -6169430207064812250
+      iconset_16x16_00_basic_90: 2174031622148370793
+      iconset_16x16_00_basic_20: -1379301930765850133
+      iconset_16x16_00_basic_136: -7727724802965737212
+      iconset_16x16_00_basic_44: 3930885573016299090
+      iconset_16x16_00_basic_29: -1842639509257616497
+      iconset_16x16_00_basic_45: -6296122418427252955
+      iconset_16x16_00_basic_58: 6039688132447236314
+      iconset_16x16_00_basic_81: -3732120680713975458
+      iconset_16x16_00_basic_41: -3964214710129056312
+      iconset_16x16_00_basic_130: 8222350174725004586
+      iconset_16x16_00_basic_56: -3438697468611320631
+      iconset_16x16_00_basic_73: -4189212545338303924
+      iconset_16x16_00_basic_42: -5684583097485541010
+      iconset_16x16_00_basic_72: -876560951564715590
+      iconset_16x16_00_basic_69: 1675138014827689880
+      iconset_16x16_00_basic_95: -6317744461968780762
+      iconset_16x16_00_basic_21: 3565487875818672118
+      iconset_16x16_00_basic_89: -8469499113552428762
+      iconset_16x16_00_basic_10: 2079598290454267975
+      iconset_16x16_00_basic_82: -6655356935494847394
+      iconset_16x16_00_basic_122: -4537926257678243105
+      iconset_16x16_00_basic_133: -9075084049002583170
+      iconset_16x16_00_basic_109: 6382940865930827122
+      iconset_16x16_00_basic_92: -8755993396465699224
+      iconset_16x16_00_basic_36: 5457671634839327623
+      iconset_16x16_00_basic_105: -1439170524869250812
+      iconset_16x16_00_basic_25: -7413309008400886627
+      iconset_16x16_00_basic_46: 5520667198133771049
+      iconset_16x16_00_basic_91: 2203372313085337088
+      iconset_16x16_00_basic_113: 7789100493787822344
+      iconset_16x16_00_basic_6: -3623606305256531796
+      iconset_16x16_00_basic_11: -5187591539041184337
+      iconset_16x16_00_basic_61: 2114670097012881336
+      iconset_16x16_00_basic_15: 8374491126200609226
+      iconset_16x16_00_basic_47: -663417666761232748
+      iconset_16x16_00_basic_4: -3244291775935373091
+      iconset_16x16_00_basic_97: -6469808089900985208
+      iconset_16x16_00_basic_40: 8800834387890462664
+      iconset_16x16_00_basic_98: -5980913826810754973
+      iconset_16x16_00_basic_50: 7686146499031007419
+      iconset_16x16_00_basic_123: 1457131146948527947
+      iconset_16x16_00_basic_57: -8088414198461540267
+      iconset_16x16_00_basic_63: -5618991484302998872
+      iconset_16x16_00_basic_132: -53862668459622449
+      iconset_16x16_00_basic_135: 5976938873260456879
+      iconset_16x16_00_basic_59: 2644940940950583003
+      iconset_16x16_00_basic_129: -7876171862061456737
+      iconset_16x16_00_basic_65: 971801441925396105
+      iconset_16x16_00_basic_67: 2766641391212482707
+      iconset_16x16_00_basic_49: -6140430433430498547
+      iconset_16x16_00_basic_54: 6778314197845907390
+      iconset_16x16_00_basic_101: -7818746633654281875
+      iconset_16x16_00_basic_103: -623881504480759648
+      iconset_16x16_00_basic_53: 4761980945135979284
+      iconset_16x16_00_basic_71: -7932287099314443454
+      iconset_16x16_00_basic_26: 2167367520850753556
+      iconset_16x16_00_basic_68: 3726257550295574185
+      iconset_16x16_00_basic_114: 4623788627971704900
+      iconset_16x16_00_basic_55: -5031644042559549516
+      iconset_16x16_00_basic_31: -3476996630620405334
+      iconset_16x16_00_basic_28: -474965913915275478
+      iconset_16x16_00_basic_75: 293300312647348173
+      iconset_16x16_00_basic_139: 3025867204375311022
+      iconset_16x16_00_basic_79: 6290875852486899238
+      iconset_16x16_00_basic_86: -4320240776669497414
+      iconset_16x16_00_basic_17: -2050567936601554289
+      iconset_16x16_00_basic_87: -5009843074734373186
+      iconset_16x16_00_basic_30: -4216660252206320747
+      iconset_16x16_00_basic_34: 2903570541533887359
+      iconset_16x16_00_basic_12: -4551922590019383734
+      iconset_16x16_00_basic_85: 3988649461585494089
+      iconset_16x16_00_basic_37: 6673915665110825043
+      iconset_16x16_00_basic_88: 2963647195183130913
+      iconset_16x16_00_basic_35: 1222543245045650714
+      iconset_16x16_00_basic_27: 1122528209330649433
+      iconset_16x16_00_basic_18: 1607415487847989610
+      iconset_16x16_00_basic_127: 8440417580396699827
+      iconset_16x16_00_basic_128: -3290265069220688099
+      iconset_16x16_00_basic_33: -4342739999246289408
+      iconset_16x16_00_basic_131: 1510884617003466183
+      iconset_16x16_00_basic_110: 1291228597959899343
+      iconset_16x16_00_basic_125: -3763789105263620820
+      iconset_16x16_00_basic_5: 9019146078297200453
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

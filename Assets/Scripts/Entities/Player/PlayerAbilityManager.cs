@@ -2,9 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
+
+[System.Serializable]
+public class ChangeTargetEvent : UnityEvent<GameObject, GameObject> {}
 
 public class PlayerAbilityManager : EntityAbilityManager
 {
+    public static ChangeTargetEvent changeEvent;
     [SerializeField] private GameObject _abilityCanvas;
 
     void Start()
@@ -58,7 +63,7 @@ public class PlayerAbilityManager : EntityAbilityManager
         }
     }
 
-    private static GameObject FindClosestEnemy(Vector3 pos, float range)
+    private GameObject FindClosestEnemy(Vector3 pos, float range)
     {
         float closest = 0;
         GameObject closestEnemy = null;
@@ -71,6 +76,16 @@ public class PlayerAbilityManager : EntityAbilityManager
             closestEnemy = enemy;
             closest = distance;
         }
+        if (closest <= range && closestEnemy && changeEvent != null) {
+            if ((_target && _target.GetInstanceID() != closestEnemy.GetInstanceID())
+                || (!_target && closestEnemy)) {
+                changeEvent.Invoke(closestEnemy, _target);
+            }
+        } else {
+            if (_target) {
+                changeEvent?.Invoke(null, null);
+            }
+        }
         return closest > range ? null : closestEnemy;
     }
 
@@ -81,15 +96,22 @@ public class PlayerAbilityManager : EntityAbilityManager
         Image maskUiCanvasImage = maskUiCanvas.GetComponent<Image>();
 
         for (; animationTime > 0; animationTime -= Time.deltaTime) {
+            if (!maskUiCanvasImage) {
+                break;
+            }
             maskUiCanvasImage.fillAmount = animationTime / delaySeconds;
             yield return new WaitForEndOfFrame();
         }
-        maskUiCanvasImage.fillAmount = 0;
+        if (maskUiCanvasImage) {
+            maskUiCanvasImage.fillAmount = 0;
+        }
     }
 
     private void TriggerAbilityPlayer(Ability ability, bool isAutoAttack, int index = 0)
     {
-        TriggerAbility(ability, isAutoAttack);
+        if (!TriggerAbility(ability, isAutoAttack)) {
+            return;
+        }
         if (index > 0) {
             StartCoroutine(AbilityRegenerator(ability.cooldownTime, index));
         }

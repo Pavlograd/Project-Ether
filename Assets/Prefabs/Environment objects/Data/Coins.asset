@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Coins
   m_EditorClassIdentifier: 
   objectName: Coin
-  minAmount: 2
-  maxAmount: 5
-  dropRate: 0.5
+  minAmount: 75
+  maxAmount: 125
+  dropRate: 0.75
   prefab: {fileID: 1955052633311147543, guid: 9ae3c713e264bf14399a862822becf76, type: 3}
+  picture: {fileID: -3338749442709606003, guid: 2c11ba8e3dfa3194fbb8d722cc9a1c1c, type: 3}

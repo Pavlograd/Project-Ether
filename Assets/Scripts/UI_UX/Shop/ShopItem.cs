@@ -6,6 +6,7 @@ using System.IO;
 using System.Text;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class ShopItem : MonoBehaviour
 {
@@ -24,26 +25,23 @@ public class ShopItem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (File.Exists(Application.persistentDataPath + "/ShopItem.json" ) && prefab != null)
+        ShopList = API.getShop();
+        if (ShopList != null  && prefab != null)
         {
-            // Read the entire file and save its contents.
-            string fileContents = File.ReadAllText(Application.persistentDataPath + "/ShopItem.json");
-
-            // Deserialize the JSON data 
-            // into a pattern matching the PlayerData class.
-            ShopList = JsonUtility.FromJson<ShopListClass>(fileContents);
             setUpItem();
-        } else
+        }
+        else
         {
             Debug.Log("ShopItem.Json not found");
         }
-        
+
     }
 
     private void setUpItem()
     {
         int i = 0;
-        if (type == 1) {
+        if (type == 1)
+        {
             foreach (ShopItemClass item in ShopList.items)
             {
                 if (item.quantity > 0)
@@ -58,20 +56,24 @@ public class ShopItem : MonoBehaviour
                     Image itemImage = newShopItem.transform.Find("Picture").GetComponent<Image>();
                     itemImage.sprite = Resources.Load<Sprite>("Textures/Shop/Item/" + System.IO.Path.GetFileNameWithoutExtension(item.id.ToString()));
 
-                    Text itemName = newShopItem.transform.Find("Name").GetComponent<Text>();
-                    itemName.text = item.name;
+                    TMP_Text itemName = newShopItem.transform.Find("Name").GetComponent<TMP_Text>();
+                    itemName.SetText(item.name);
 
-                    Text itemID = newShopItem.transform.Find("ID").GetComponent<Text>();
-                    itemID.text = item.id.ToString();
+                    TMP_Text itemID = newShopItem.transform.Find("ID").GetComponent<TMP_Text>();
+                    itemID.SetText(item.id.ToString());
 
                     setItemCurrency(newShopItem, item);
                 }
             };
-        } else if (type == 2) {
+        }
+        else if (type == 2)
+        {
             foreach (ShopTextureClass item in ShopList.textures)
             {
+                
                 if (item.quantity > 0)
                 {
+                    Debug.Log(item.name);
                     Vector3 pos = new Vector3(100.0f, 16.0f, 0.0f); ;
                     pos.x = pos.x + (175 * i);
                     i = i + 1;
@@ -82,41 +84,16 @@ public class ShopItem : MonoBehaviour
                     Image itemImage = newShopItem.transform.Find("Picture").GetComponent<Image>();
                     itemImage.sprite = Resources.Load<Sprite>("Textures/Shop/Texture/" + System.IO.Path.GetFileNameWithoutExtension(item.id.ToString()));
 
-                    Text itemName = newShopItem.transform.Find("Name").GetComponent<Text>();
+                    TMP_Text itemName = newShopItem.transform.Find("Name").GetComponent<TMP_Text>();
                     itemName.text = item.name;
 
-                    Text itemID = newShopItem.transform.Find("ID").GetComponent<Text>();
-                    itemID.text = item.id.ToString();
+                    TMP_Text itemID = newShopItem.transform.Find("ID").GetComponent<TMP_Text>();
+                    itemID.SetText(item.id.ToString());
 
                     setItemCurrency2(newShopItem, item);
                 }
             }
-        } else if (type == 3) {
-            foreach (ShopColorClass item in ShopList.colors)
-            {
-                if (item.quantity > 0)
-                {
-                    Vector3 pos = new Vector3(275.0f, 16.0f, 0.0f); ;
-                    pos.x = pos.x + (175 * i);
-                    i = i + 1;
-                    GameObject newShopItem = Instantiate(prefab, pos, transform.rotation);
-                    newShopItem.transform.SetParent(GameObject.FindGameObjectWithTag("ShopColorList").transform, false);
-                    newShopItem.SetActive(true);
-
-                    //Image itemImage = newShopItem.transform.Find("Picture").GetComponent<Image>();
-                    //itemImage.sprite = Resources.Load<Sprite>("Textures/Shop/Color/" + System.IO.Path.GetFileNameWithoutExtension(item.id.ToString()));
-
-                    Text itemName = newShopItem.transform.Find("Name").GetComponent<Text>();
-                    itemName.text = item.name;
-
-                    Text itemID = newShopItem.transform.Find("ID").GetComponent<Text>();
-                    itemID.text = item.id.ToString();
-
-                    setItemCurrency3(newShopItem, item);
-                }
-            }
         }
-
 
     }
 
@@ -127,11 +104,11 @@ public class ShopItem : MonoBehaviour
 
         Image image = contener.transform.Find("Type").GetComponent<Image>();
         image.sprite = Resources.Load<Sprite>("Textures/Shop/Money/0");
-        Text price = contener.transform.Find("Number").GetComponent<Text>();
+        TMP_Text price = contener.transform.Find("Number").GetComponent<TMP_Text>();
         buyInfo.price = item.price;
         buyInfo.type = 1;
         price.text = item.price.ToString();
-        
+
     }
 
     private void setItemCurrency2(GameObject newShopItem, ShopTextureClass item)
@@ -141,7 +118,7 @@ public class ShopItem : MonoBehaviour
 
         Image image = contener.transform.Find("Type").GetComponent<Image>();
         image.sprite = Resources.Load<Sprite>("Textures/Shop/Money/1");
-        Text price = contener.transform.Find("Number").GetComponent<Text>();
+        TMP_Text price = contener.transform.Find("Number").GetComponent<TMP_Text>();
         buyInfo.price = item.price;
         buyInfo.type = 2;
         price.text = item.price.ToString();
@@ -155,7 +132,7 @@ public class ShopItem : MonoBehaviour
 
         Image image = contener.transform.Find("Type").GetComponent<Image>();
         image.sprite = Resources.Load<Sprite>("Textures/Shop/Money/2");
-        Text price = contener.transform.Find("Number").GetComponent<Text>();
+        TMP_Text price = contener.transform.Find("Number").GetComponent<TMP_Text>();
         buyInfo.price = item.price;
         buyInfo.type = 3;
         price.text = item.price.ToString();
@@ -166,10 +143,13 @@ public class ShopItem : MonoBehaviour
     {
         buyInformation buyInfo = prefab.transform.Find("Price").GetComponent<buyInformation>();
 
-        Text itemID = prefab.transform.Find("ID").GetComponent<Text>();
+        TMP_Text itemID = prefab.transform.Find("ID").GetComponent<TMP_Text>();
+
+        int maxTextureNbr = 0;
+        int TextureNbr = 0;
 
         BuyItem(Int32.Parse(itemID.text));
-        
+
         if (buyInfo.type == 1)
         {
             MoneyInventory CrystalCount = Crystal.transform.Find("GameObject").GetComponent<MoneyInventory>();
@@ -178,9 +158,15 @@ public class ShopItem : MonoBehaviour
         }
         if (buyInfo.type == 2)
         {
-            MoneyInventory CashCount = Mentoring.transform.Find("GameObject").GetComponent<MoneyInventory>(); //change mentoring to cash
-            CashCount.removeCrystal(buyInfo.price);
-            CashCount.saveCrystal();
+            maxTextureNbr = API.GetMaxTextureSlot();
+            TextureNbr = API.GetTextureSlot();
+            if (TextureNbr < maxTextureNbr)
+            {
+                MoneyInventory CashCount = Mentoring.transform.Find("GameObject").GetComponent<MoneyInventory>(); //change mentoring to cash
+                CashCount.removeCrystal(buyInfo.price);
+                CashCount.saveCrystal();
+                API.PostTextureSlot();
+            }
         }
         if (buyInfo.type == 3)
         {
@@ -193,8 +179,12 @@ public class ShopItem : MonoBehaviour
     public void BuyItem(int id)
     {
         int i = 0;
+        //int maxTextureNbr = 0;
+        //int TextureNbr = 0;
+
         if (type == 1)
         {
+            Debug.Log("test");
             API_inventories ShopListToSend = API.GetInventory();
             foreach (API_inventory item in ShopListToSend.inventories)
             {
@@ -205,32 +195,53 @@ public class ShopItem : MonoBehaviour
             };
 
             foreach (ShopItemClass item in ShopList.items)
-            {                
+            {
                 if (item.id == id)
                 {
-                    if (File.Exists(Application.persistentDataPath + "/ShopItem.json"))
-                    {
-                        ShopList.items[i].quantity = ShopList.items[i].quantity - 1;
-                        string json = JsonUtility.ToJson(ShopList);
-                        File.WriteAllText(Application.persistentDataPath + "/ShopItem.json", json);
-                    }
+                    ShopList.items[i].quantity = ShopList.items[i].quantity - 1;
+                    API.postShop(ShopList);
                 }
                 i = i + 1;
+                
+
             };
+            
         }
         else if (type == 2)
         {
-            if (File.Exists(Application.persistentDataPath + "/ShopItem.json"))
-            {
-                API.PostTexture(System.Convert.ToBase64String(textureToSend.EncodeToPNG()));
-                ShopList.textures[0].quantity = ShopList.textures[0].quantity - 1;
-                string json = JsonUtility.ToJson(ShopList);
-                File.WriteAllText(Application.persistentDataPath + "/ShopItem.json", json);
-            }
+            Texture2D texture = new Texture2D(16, 16);
+            texture = DeCompress(Resources.Load<Texture2D>("Textures/Shop/Texture/" + System.IO.Path.GetFileNameWithoutExtension(ShopList.textures[id].id.ToString())));
+            
+            API.PostTexture("", System.Convert.ToBase64String(texture.EncodeToPNG()));
+            ShopList.textures[id].quantity = ShopList.textures[id].quantity - 1;
+            API.postShop(ShopList);
+           
         }
+        
         refresh();
         setUpItem();
     }
+
+    public Texture2D DeCompress(Texture2D source)
+    {
+        RenderTexture renderTex = RenderTexture.GetTemporary(
+                    source.width,
+                    source.height,
+                    0,
+                    RenderTextureFormat.Default,
+                    RenderTextureReadWrite.Linear);
+
+        Graphics.Blit(source, renderTex);
+        RenderTexture previous = RenderTexture.active;
+        RenderTexture.active = renderTex;
+        Texture2D readableText = new Texture2D(source.width, source.height);
+        readableText.ReadPixels(new Rect(0, 0, renderTex.width, renderTex.height), 0, 0);
+        readableText.Apply();
+        RenderTexture.active = previous;
+        RenderTexture.ReleaseTemporary(renderTex);
+        return readableText;
+    }
+
 
     public void refresh()
     {

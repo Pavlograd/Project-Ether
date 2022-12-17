@@ -29,6 +29,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5181333636123722616}
   m_RootOrder: 0
@@ -46,6 +47,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _mixer: {fileID: 24100000, guid: 2aa9610b9e25d7a4f8bcfddd004f6348, type: 2}
+  _defaultMusicVolume: -20
+  _defaultSfxVolume: -10
   _sfxAudioSource: {fileID: 5670743974205172307}
   _musicAudioSource: {fileID: 6657970816708207646}
   _sfxList:
@@ -55,6 +58,16 @@ MonoBehaviour:
     audioClip: {fileID: 8300000, guid: 11fcd16ebaa50424e8d0cca7ff7427fa, type: 3}
   - key: 4
     audioClip: {fileID: 8300000, guid: 97709f2054e2f55448842cab837773f7, type: 3}
+  - key: 5
+    audioClip: {fileID: 8300000, guid: a29559261a2ba7b4dac510e84ced617d, type: 3}
+  - key: 6
+    audioClip: {fileID: 8300000, guid: 9ee9249b0afadf742ae3ca0d994964fc, type: 3}
+  - key: 7
+    audioClip: {fileID: 8300000, guid: 070356642d8c243ef89222cc3d6e67cd, type: 3}
+  - key: 9
+    audioClip: {fileID: 8300000, guid: 6f3ab90e6d8e84dbab810641e6f20d80, type: 3}
+  - key: 10
+    audioClip: {fileID: 8300000, guid: 1c35840dc080c4126b57f26146189592, type: 3}
   _musiclist:
   - key: 0
     audioClip: {fileID: 8300000, guid: db07b84fef12462408f27e496ae196ee, type: 3}
@@ -279,6 +292,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5181333636123722616}
   m_RootOrder: 1
@@ -328,6 +342,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5181333634879227870}
   - {fileID: 5181333635404570804}
@@ -374,6 +389,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5181333636123722616}
   m_RootOrder: 2

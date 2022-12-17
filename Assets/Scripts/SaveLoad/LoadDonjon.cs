@@ -4,14 +4,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
+
+// LOAD A COMPLETE DONJON
+// HAS PARAMETERS IF NEED TO TEST
+// HAS PARAMETERS FOR PATH TO DONJON IF NEEDED
+// IS CALLED ON SCENE START
+// DON'T USE IT TO GET INFOS AS IT CHANGES VALUES
+// USE DonjonInfo.cs INSTEAD
+
 public class LoadDonjon : MonoBehaviour
 {
-    [SerializeField] private LoadRoom roomLoader;
-    [SerializeField] private GameObject _mobs;
-    [SerializeField] private GameObject _player;
+    [SerializeField] private LoadRoom roomLoader; // To load rooms one by one
+    [SerializeField] private GameObject _mobs; // GamObject containing mobs to reactivate then at the end
+    [SerializeField] private GameObject _player; // GameObject containing player to move them and activate them
     [SerializeField] private Tilemap _ground;
     [SerializeField] private RoomClass _startIsland;
-    bool _testDonjon = false;
+    bool _testDonjon = false; // Check if it will be a test or a real game
     string _donjonPath;
 
     // Start is called before the first frame update

@@ -423,7 +423,7 @@ TextureImporter:
       213: -3853183632334566864
     second: icons_stat&skills_16x16_v1_1_139
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -444,6 +444,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -482,6 +483,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -509,6 +511,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -3472,6 +3486,147 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      icons_stat&skills_16x16_v1_1_23: 3867742705903381502
+      icons_stat&skills_16x16_v1_1_110: -8499999661712841578
+      icons_stat&skills_16x16_v1_1_64: 3308456630378491132
+      icons_stat&skills_16x16_v1_1_25: -1837409174249065996
+      icons_stat&skills_16x16_v1_1_26: -2978063933150639950
+      icons_stat&skills_16x16_v1_1_73: 4055311332642570477
+      icons_stat&skills_16x16_v1_1_82: 501356573989189802
+      icons_stat&skills_16x16_v1_1_92: 6127651341739984906
+      icons_stat&skills_16x16_v1_1_37: 8186885775427814241
+      icons_stat&skills_16x16_v1_1_102: -4590476044389313302
+      icons_stat&skills_16x16_v1_1_11: 5764579475148445624
+      icons_stat&skills_16x16_v1_1_88: -6581475470722371452
+      icons_stat&skills_16x16_v1_1_24: 4161492380520307061
+      icons_stat&skills_16x16_v1_1_113: 3804030482076782058
+      icons_stat&skills_16x16_v1_1_78: -4051530464101261184
+      icons_stat&skills_16x16_v1_1_104: 5954656526999612426
+      icons_stat&skills_16x16_v1_1_124: 3903629948527662949
+      icons_stat&skills_16x16_v1_1_131: -1616381424075758919
+      icons_stat&skills_16x16_v1_1_16: 8417148795403329317
+      icons_stat&skills_16x16_v1_1_139: -3853183632334566864
+      icons_stat&skills_16x16_v1_1_40: -3470098638107071097
+      icons_stat&skills_16x16_v1_1_0: 3290940016682527687
+      icons_stat&skills_16x16_v1_1_30: -8621228966752578592
+      icons_stat&skills_16x16_v1_1_49: -3736761440554836763
+      icons_stat&skills_16x16_v1_1_29: -1164254162176440281
+      icons_stat&skills_16x16_v1_1_106: 5014827544366843489
+      icons_stat&skills_16x16_v1_1_39: 8442923976521243043
+      icons_stat&skills_16x16_v1_1_61: -9039609970286549654
+      icons_stat&skills_16x16_v1_1_138: 6417626954275018221
+      icons_stat&skills_16x16_v1_1_14: 4377635322752175449
+      icons_stat&skills_16x16_v1_1_107: -5216874886174801994
+      icons_stat&skills_16x16_v1_1_109: -3082319384289436337
+      icons_stat&skills_16x16_v1_1_38: -7374884553911922267
+      icons_stat&skills_16x16_v1_1_94: 7564426126622895292
+      icons_stat&skills_16x16_v1_1_63: 5476726934641305472
+      icons_stat&skills_16x16_v1_1_65: 1645976597760161996
+      icons_stat&skills_16x16_v1_1_2: -5577289566746501121
+      icons_stat&skills_16x16_v1_1_72: -3414277676579863291
+      icons_stat&skills_16x16_v1_1_69: -3812136982455209464
+      icons_stat&skills_16x16_v1_1_7: 4844726217155362284
+      icons_stat&skills_16x16_v1_1_10: 2984127742929680502
+      icons_stat&skills_16x16_v1_1_21: 6750464420466125239
+      icons_stat&skills_16x16_v1_1_98: -6892314825161338263
+      icons_stat&skills_16x16_v1_1_87: 5083913362086935040
+      icons_stat&skills_16x16_v1_1_58: 8655126358015906591
+      icons_stat&skills_16x16_v1_1_76: 6529739794474811598
+      icons_stat&skills_16x16_v1_1_77: -8709351384716736031
+      icons_stat&skills_16x16_v1_1_135: -1206604491287465597
+      icons_stat&skills_16x16_v1_1_103: 1461539991604312546
+      icons_stat&skills_16x16_v1_1_86: 7721153699139922192
+      icons_stat&skills_16x16_v1_1_60: -6222917803473108859
+      icons_stat&skills_16x16_v1_1_33: -8417254035209542542
+      icons_stat&skills_16x16_v1_1_43: 798357086501482122
+      icons_stat&skills_16x16_v1_1_32: 6292967633225228794
+      icons_stat&skills_16x16_v1_1_59: 8877644486982654720
+      icons_stat&skills_16x16_v1_1_22: 4884554431451119039
+      icons_stat&skills_16x16_v1_1_93: 6441443170577456010
+      icons_stat&skills_16x16_v1_1_54: -7257004693883495959
+      icons_stat&skills_16x16_v1_1_45: 4005767117497230533
+      icons_stat&skills_16x16_v1_1_97: -3718159969531465518
+      icons_stat&skills_16x16_v1_1_84: -48844718235184255
+      icons_stat&skills_16x16_v1_1_90: -3022078035060953259
+      icons_stat&skills_16x16_v1_1_99: 4765007904562459442
+      icons_stat&skills_16x16_v1_1_123: 5330990364887341767
+      icons_stat&skills_16x16_v1_1_19: -8825878795243225896
+      icons_stat&skills_16x16_v1_1_120: -2474630542107392667
+      icons_stat&skills_16x16_v1_1_12: 5947691954289616617
+      icons_stat&skills_16x16_v1_1_117: -2234919418956199647
+      icons_stat&skills_16x16_v1_1_52: -3089735573472039525
+      icons_stat&skills_16x16_v1_1_5: -3919482446487777602
+      icons_stat&skills_16x16_v1_1_132: -9114928894326253765
+      icons_stat&skills_16x16_v1_1_66: -7348767777270687296
+      icons_stat&skills_16x16_v1_1_56: 8245942904240317074
+      icons_stat&skills_16x16_v1_1_111: 3028868404633078851
+      icons_stat&skills_16x16_v1_1_128: 2726588100635950281
+      icons_stat&skills_16x16_v1_1_89: -1271815918935263074
+      icons_stat&skills_16x16_v1_1_50: -3417121854472529229
+      icons_stat&skills_16x16_v1_1_41: -2560577441665895273
+      icons_stat&skills_16x16_v1_1_31: 5785913869225909313
+      icons_stat&skills_16x16_v1_1_18: -4692664642418711582
+      icons_stat&skills_16x16_v1_1_47: 3166024447842838256
+      icons_stat&skills_16x16_v1_1_95: -8751959733370274688
+      icons_stat&skills_16x16_v1_1_79: 699222110454116966
+      icons_stat&skills_16x16_v1_1_80: 6197838793209968225
+      icons_stat&skills_16x16_v1_1_129: -47831856624026182
+      icons_stat&skills_16x16_v1_1_133: 449244494085064532
+      icons_stat&skills_16x16_v1_1_35: -5815566937547966866
+      icons_stat&skills_16x16_v1_1_136: -4622479722316073954
+      icons_stat&skills_16x16_v1_1_28: -1195029610664834022
+      icons_stat&skills_16x16_v1_1_1: 581541000601861926
+      icons_stat&skills_16x16_v1_1_53: -4811244002992959679
+      icons_stat&skills_16x16_v1_1_9: 8046578140696499323
+      icons_stat&skills_16x16_v1_1_115: -5875449151077570225
+      icons_stat&skills_16x16_v1_1_134: 2880859686374388629
+      icons_stat&skills_16x16_v1_1_83: 4737337330325700627
+      icons_stat&skills_16x16_v1_1_34: 505538931213995687
+      icons_stat&skills_16x16_v1_1_81: 8338154512425287785
+      icons_stat&skills_16x16_v1_1_96: -5611557742716126294
+      icons_stat&skills_16x16_v1_1_6: -4271567652939953940
+      icons_stat&skills_16x16_v1_1_57: 1756982873259464952
+      icons_stat&skills_16x16_v1_1_137: 3804808649483448807
+      icons_stat&skills_16x16_v1_1_17: 5191610606163680641
+      icons_stat&skills_16x16_v1_1_112: -5380267893620986797
+      icons_stat&skills_16x16_v1_1_44: -3597398623474789794
+      icons_stat&skills_16x16_v1_1_3: -359786361363074943
+      icons_stat&skills_16x16_v1_1_121: 1976096716201372739
+      icons_stat&skills_16x16_v1_1_85: 2787814134476260257
+      icons_stat&skills_16x16_v1_1_36: 3015417378590402551
+      icons_stat&skills_16x16_v1_1_15: -5714636214243779410
+      icons_stat&skills_16x16_v1_1_20: -286010778623617667
+      icons_stat&skills_16x16_v1_1_48: -6050635245571758548
+      icons_stat&skills_16x16_v1_1_4: -6735320431670075486
+      icons_stat&skills_16x16_v1_1_70: 9201317294067630019
+      icons_stat&skills_16x16_v1_1_119: -6726497928339696406
+      icons_stat&skills_16x16_v1_1_127: 8561949464584321740
+      icons_stat&skills_16x16_v1_1_8: -6130793472684595517
+      icons_stat&skills_16x16_v1_1_68: 953206285640247865
+      icons_stat&skills_16x16_v1_1_75: 6057314068388308993
+      icons_stat&skills_16x16_v1_1_51: 3972202445413477916
+      icons_stat&skills_16x16_v1_1_101: -7196900499757693684
+      icons_stat&skills_16x16_v1_1_74: 1903385534118686067
+      icons_stat&skills_16x16_v1_1_13: 8066246863637449440
+      icons_stat&skills_16x16_v1_1_108: -6691757007353806848
+      icons_stat&skills_16x16_v1_1_122: 5909722789299788457
+      icons_stat&skills_16x16_v1_1_125: -3788567166093617613
+      icons_stat&skills_16x16_v1_1_126: -1615020427227913848
+      icons_stat&skills_16x16_v1_1_62: 7449003129463215714
+      icons_stat&skills_16x16_v1_1_27: -4492100933856813899
+      icons_stat&skills_16x16_v1_1_46: 3828363614170638633
+      icons_stat&skills_16x16_v1_1_118: -2637404552986684078
+      icons_stat&skills_16x16_v1_1_71: 2736709727358380047
+      icons_stat&skills_16x16_v1_1_91: -559367922670476756
+      icons_stat&skills_16x16_v1_1_55: 3601659261615252945
+      icons_stat&skills_16x16_v1_1_67: -359053557590478295
+      icons_stat&skills_16x16_v1_1_42: 5157820172474366384
+      icons_stat&skills_16x16_v1_1_100: -7370293314563399626
+      icons_stat&skills_16x16_v1_1_114: 9169346437514838351
+      icons_stat&skills_16x16_v1_1_130: -1374942756755368162
+      icons_stat&skills_16x16_v1_1_116: -1942333032937527318
+      icons_stat&skills_16x16_v1_1_105: 5782666227545230927
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 1

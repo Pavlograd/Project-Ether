@@ -4,6 +4,7 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Tilemaps;
+using TMPro;
 
 public class LoadRooms : MonoBehaviour
 {
@@ -25,7 +26,7 @@ public class LoadRooms : MonoBehaviour
         // Deserialize the JSON data 
         // into a pattern matching the PlayerData class.
         PlayerClass player = JsonUtility.FromJson<PlayerClass>(fileContents);
-        Vector3 position = new Vector3(0.0f, -350.0f, 0.0f);
+        Vector3 position = new Vector3(-40.0f, -150.0f, 0.0f);
         RectTransform contentTransform = _content.GetComponent<RectTransform>();
 
         List<string> dropOptions = new List<string>();
@@ -39,10 +40,12 @@ public class LoadRooms : MonoBehaviour
             GameObject newButton = Instantiate(_button, Vector3.zero, Quaternion.identity, contentTransform);
             newButton.transform.localPosition = position;
 
+            GameObject button = newButton.transform.GetChild(0).gameObject;
+
             // Set Index Room inn save to button
-            newButton.GetComponent<ButtonLoadRoom>().indexRoom = i;
+            button.GetComponent<ButtonLoadRoom>().indexRoom = i;
             // Set room's name as text for button
-            newButton.transform.Find("Text").GetComponent<Text>().text = room.name;
+            button.transform.Find("Text").GetComponent<TMP_Text>().text = room.name;
 
             dropOptions.Add(room.name);
 

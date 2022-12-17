@@ -91,7 +91,7 @@ public class LoadTower : MonoBehaviour
 
     public void LoadTowerFromSave()
     {
-    
+
         if (File.Exists(Application.persistentDataPath + "/save.json"))
         {
             // Read the entire file and save its contents.
@@ -102,19 +102,21 @@ public class LoadTower : MonoBehaviour
             PlayerClass player = JsonUtility.FromJson<PlayerClass>(fileContents);
 
             string room = "";
-            foreach (DonjonClass donjon in player.tower) {
-                if (donjon.rooms[0].name == LvL) {
-                    room = donjon.rooms[0].room;  
+            foreach (DonjonClass donjon in player.tower)
+            {
+                if (donjon.rooms[0].name == LvL)
+                {
+                    //room = donjon.rooms[0].room;  
                     room = room.Replace("{Room:{Walls:[", "");
                     room = room.Replace(",Ground:[", "");
                     string[] array = room.Split(']');
-                    
+
                     string[] walls = array[0].Split(',');
                     string[] ground = array[1].Split(',');
 
                     LoadTileMap(walls, _walls);
                     LoadTileMap(ground, _ground);
-                }                                      
+                }
             }
         }
     }

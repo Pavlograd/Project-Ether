@@ -26,6 +26,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.373, y: 0.036, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7136846420181452062}
   m_RootOrder: 0
@@ -56,6 +57,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5156341847656167418}
   - {fileID: 7136846420181452062}
@@ -90,13 +92,14 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7574268127642131562}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &6034401849181706239
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -104,11 +107,12 @@ Animator:
   m_GameObject: {fileID: 2174526240319214930}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9178ed05ce6d27545a45554c0b5b479b, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1138d598aced186459715bae59c7a10a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -153,7 +157,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 6
   m_Sprite: {fileID: -1800295191642102877, guid: 721c985cf85c4f1409aa5b31acbe415f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -200,6 +204,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7574268127642131562}
   - {fileID: 2398405281694309191}
@@ -302,7 +307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isAlive: 1
-  _health: 100
+  _health: 150
   _healthBar: {fileID: 0}
 --- !u!114 &8128687676079513686
 MonoBehaviour:
@@ -316,8 +321,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b93589fa272a7a849acd37a1338f69ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isTargeted: 0
   currentElementalStates: 
   _statesIconHandler: {fileID: 0}
+  _fireEarthComboPrefab: {fileID: 5071987618113354388, guid: 98b64b45d4bd0214eaf6245e257b2983, type: 3}
+  _targetContainer: {fileID: 0}
+  _iconTarget: {fileID: 0}
 --- !u!114 &3293990341251847587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -330,7 +339,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c74e644705e6b7442abc91e80b58b4fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 275
+  initialSpeed: 0
   canMove: 1
   _rigidbody: {fileID: 5954533050459525565}
   ableToTeleport: 1
@@ -392,6 +402,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.56247, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1077746355888411839}
   m_RootOrder: 1
@@ -425,6 +436,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.321, y: 0.016, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6395818825488679172}
   m_Father: {fileID: 7574268127642131562}
@@ -432,7 +444,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &4030331711057941039
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -440,11 +452,12 @@ Animator:
   m_GameObject: {fileID: 7198176192077065959}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c85d41e36b93ee240b4a968a4af717df, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0faa69ef4ab65cd43b76e6e4948a1582, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -489,7 +502,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 7
   m_Sprite: {fileID: -7756532797385248978, guid: 1624a8aee1a327e428a226f7cc7e4b58, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

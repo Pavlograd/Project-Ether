@@ -54,11 +54,14 @@ public class CampaignManager : MonoBehaviour
     public void StartDonjon()
     {
         // TODO CHANGE THAT LATER MAURIN
+        // WHY ME ?????
+
+        if (!API.RemoveEnergy()) return; // Not enough energy
+
         string path = Application.persistentDataPath + "/" + Random.Range(0, 256) + "randomLevel.json";
         File.WriteAllText(path, fileContents);
         CrossSceneInfos.donjonPath = path;
-
-        SceneManager.LoadScene("Donjon");
+        FindObjectOfType<LevelLoader>().LoadLevel("NewDonjon");
     }
 
     private int CountOccurenceForMobs(List<MobData> list, ElementaryType valueToFind)

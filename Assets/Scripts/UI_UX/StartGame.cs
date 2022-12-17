@@ -35,7 +35,7 @@ public class StartGame : MonoBehaviour
 
     void initShop()
     {
-        if (File.Exists(Application.persistentDataPath + "/ShopItem.json")) {
+       /* if (File.Exists(Application.persistentDataPath + "/ShopItem.json")) {
             Debug.Log("file exist");
         } else {
             ShopListClass save = new ShopListClass();
@@ -46,7 +46,7 @@ public class StartGame : MonoBehaviour
 
             string json = JsonUtility.ToJson(save);
             File.WriteAllText(Application.persistentDataPath + "/ShopItem.json", json);
-        }
+        }*/
     }
 
     ShopItemClass addItemToShop(uint id, string name, int moneyType, int price)

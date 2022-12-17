@@ -1,11 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovementManager : EntityMovementManager
 {
     private float _horizontalAxis;
     private float _verticalAxis;
+    private Vector2 _moveVector;
     public bool ableToTeleport = true;
     [SerializeField] private VariableJoystick _variableJoystick;
 
@@ -15,12 +14,10 @@ public class PlayerMovementManager : EntityMovementManager
         _rigidbody = GetComponent<Rigidbody2D>();
     }
 
-    void FixedUpdate()
-    {
+    private void Update() {
         if (_variableJoystick && _entityData.entityHealthManager.isAlive) {
             _horizontalAxis = Mathf.Abs(_variableJoystick.Horizontal) > 0.1f ? _variableJoystick.Horizontal : Input.GetAxis("Horizontal");
             _verticalAxis = Mathf.Abs(_variableJoystick.Vertical) > 0.1f ? _variableJoystick.Vertical : Input.GetAxis("Vertical");
-
             if (!canMove) {
                 DisablePlayerAnimation();
             } else {
@@ -31,10 +28,16 @@ public class PlayerMovementManager : EntityMovementManager
                 } else {
                     Run();
                     RotateEntity(_horizontalAxis);
-                    SetVelocity(new Vector2(_horizontalAxis, _verticalAxis) * speed);
+                    _moveVector = new Vector2(_horizontalAxis, _verticalAxis);
+                    // SetVelocity(new Vector2(_horizontalAxis, _verticalAxis) * speed);
                 }
             }
         }
+    }
+
+    void FixedUpdate()
+    {
+        SetVelocity(_moveVector * speed * Time.fixedDeltaTime);
     }
 
     private void Run()
@@ -44,6 +47,7 @@ public class PlayerMovementManager : EntityMovementManager
 
     private void DisablePlayerAnimation()
     {
+        _moveVector = Vector2.zero;
         SetVelocity(Vector2.zero);
         _entityData.entityAnimationManager.Run(GetSpeedWithVelocity());
     }

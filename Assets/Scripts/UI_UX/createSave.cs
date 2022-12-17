@@ -13,6 +13,9 @@ public class createSave : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //PlayerClass player = API.GetUserDataForSave();
+        //string json = JsonUtility.ToJson(player);
+        //File.WriteAllText(Application.persistentDataPath + "/save.json", json);
 
     }
 
@@ -24,10 +27,8 @@ public class createSave : MonoBehaviour
         PlayerClass player = JsonUtility.FromJson<PlayerClass>(fileContents);
         RoomClass room = new RoomClass();
         DonjonClass donjon = new DonjonClass();
-        room.room = roomParam;
+        //room.room = roomParam;
         room.name = LvL;
-        room.traps = "";
-        room.portals = "";
         donjon.rooms.Add(room);
         player.tower.Add(donjon);
 

@@ -18,10 +18,12 @@ public class AbilitiesChoiceManager : MonoBehaviour
     {
         _abilitiesInventory = PlayerSpellInventory.instance.getAbilities();
 
-        for (int i = 0; i < LevelData.instance.playerAbilities.Count; i++) {
-            if (LevelData.instance.playerAbilities[i] != null)
-                _finalAbilitiesImage[i].GetComponent<Image>().sprite = LevelData.instance.playerAbilities[i].thumbnail;
-            _finalAbilitiesScriptableObj.Add(LevelData.instance.playerAbilities[i]);
+        for (int i = 0; i < _abilitiesInventory.Count; i++) {
+            if (_abilitiesInventory[i] != null)
+                _finalAbilitiesImage[i].GetComponent<Image>().sprite = _abilitiesInventory[i].thumbnail;
+            _finalAbilitiesScriptableObj.Add(_abilitiesInventory[i]);
+            if (i == 3)
+                break;
         }
 
         for (int i = 3; i >= _abilitiesInventory.Count; i--) {

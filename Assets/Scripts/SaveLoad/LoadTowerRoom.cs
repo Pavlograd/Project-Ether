@@ -3,6 +3,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+// SCRIPT USELESS NOW
+// DON'T USE IT
+// SCRIPT USELESS NOW
+// DON'T USE IT
+// SCRIPT USELESS NOW
+// DON'T USE IT
+// SCRIPT USELESS NOW
+// DON'T USE IT
+// SCRIPT USELESS NOW
+// DON'T USE IT
+// USED TO LOAD INFOS FOR MENUS
+
 public class LoadTowerRoom : MonoBehaviour
 {
     [SerializeField] private LoadTower roomLoader;

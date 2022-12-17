@@ -5,13 +5,25 @@ using System.IO;
 using System.Globalization;
 using System;
 
+// SCRIPT CONTAINING INFOS OF THE DONJON
+// USE IT TO GET INFOS OF THE DONJON FOR MENUS
+// DON'T USE IT TO PLAY IN THE DONJON
+// USE LoadDonjon.cs INSTEAD
+
+
 public class DonjonInfo : MonoBehaviour
 {
     public DonjonData GetDonjonInfo(string fileContents)
     {
         DonjonClass donjon = JsonUtility.FromJson<PlayerClass>(fileContents).donjon;
 
+        return GetDonjonInfoFromClass(donjon);
+    }
+
+    public DonjonData GetDonjonInfoFromClass(DonjonClass donjon)
+    {
         DonjonData donjonData = new DonjonData();
+
         donjonData.mobsData = GetMobsData(donjon.rooms);
         donjonData.trapsData = GetTrapsData(donjon.rooms);
         return donjonData;
@@ -23,18 +35,13 @@ public class DonjonInfo : MonoBehaviour
 
         for (int i = 0; i < rooms.Count; i++)
         {
-            string[] mobsJson = rooms[i].mobs.Split(',');
-
-            for (int y = 0; y < mobsJson.Length - 1; y++)
+            foreach (TileClass item in rooms[i].mobs)
             {
                 MobData mobData = new MobData();
-                string[] mobJson = mobsJson[y].Split(':');
 
-                mobData.position = new Vector2(0f, 0f);
-                mobData.position.x = float.Parse(mobJson[0], CultureInfo.InvariantCulture);
-                mobData.position.y = float.Parse(mobJson[1], CultureInfo.InvariantCulture);
-                mobData.prefabName = mobJson[2];
-                mobData.elementaryType = (ElementaryType)Enum.Parse(typeof(ElementaryType), mobJson[3]);
+                mobData.position = new Vector2(item.x, item.y);
+                mobData.prefabName = item.name;
+                mobData.elementaryType = ElementaryType.NORMAL;
                 mobsData.Add(mobData);
             }
         }
@@ -47,17 +54,12 @@ public class DonjonInfo : MonoBehaviour
 
         for (int i = 0; i < rooms.Count; i++)
         {
-            string[] trapsJson = rooms[i].traps.Split(',');
-
-            for (int y = 0; y < trapsJson.Length - 1; y++)
+            foreach (TileClass item in rooms[i].mobs)
             {
                 TrapData trapData = new TrapData();
-                string[] trapJson = trapsJson[y].Split(':');
 
-                trapData.position = new Vector2(0f, 0f);
-                trapData.position.x = float.Parse(trapJson[0], CultureInfo.InvariantCulture);
-                trapData.position.y = float.Parse(trapJson[1], CultureInfo.InvariantCulture);
-                trapData.id = int.Parse(trapJson[2]);
+                trapData.position = new Vector2(item.x, item.y);
+                trapData.prefabName = item.name;
                 trapsData.Add(trapData);
             }
         }
@@ -80,6 +82,6 @@ public struct MobData
 
 public struct TrapData
 {
-    public int id;
+    public string prefabName;
     public Vector2 position;
 }

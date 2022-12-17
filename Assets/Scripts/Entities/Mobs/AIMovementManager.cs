@@ -8,6 +8,7 @@ public class AIMovementManager : EntityMovementManager
     private Transform _player;
     private Vector2 _target;
     private Vector2 _startingPos;
+    private Vector2 _moveVector;
     private Path _path;
     private float _nextWaypointDistance = 0.5f;
     private int _currentWaypoint = 0;
@@ -46,7 +47,7 @@ public class AIMovementManager : EntityMovementManager
         float distancePlayerCenter = Vector2.Distance(_player.position, _startingPos);
 
         if (!canMove) {
-            SetVelocity(Vector2.zero);
+            _moveVector = Vector2.zero;
             _entityData.entityAnimationManager.Run(0);
             return;
         }
@@ -55,10 +56,10 @@ public class AIMovementManager : EntityMovementManager
             if (distanceWithPlayer > _entityData.entityAbilityManager.rangeAttack || !_entityData.entityAbilityManager.TargetIsReachable()) {
                 if (!_targetIsPlayer)
                     UpdatePath();
-                Movement();
+                SetMovement();
                 _targetIsPlayer = true;
             } else {
-                SetVelocity(Vector2.zero);
+                _moveVector = Vector2.zero;
                 _entityData.entityAnimationManager.Run(0);
             }
         } else {
@@ -66,22 +67,26 @@ public class AIMovementManager : EntityMovementManager
             if (distanceWithCenter > 0.5f) {
                 if (_targetIsPlayer)
                     UpdatePath();
-                Movement();
+                SetMovement();
                 _targetIsPlayer = false;
             } else {
-                SetVelocity(Vector2.zero);
+                _moveVector = Vector2.zero;
                 _entityData.entityAnimationManager.Run(0);
             }
         }
     }
 
-    private void Movement()
+    private void FixedUpdate()
+    {
+        SetVelocity(_moveVector * speed * Time.fixedDeltaTime);
+    }
+
+    private void SetMovement()
     {
         if (_path != null) {
             _reachedEndOfPath = _currentWaypoint >= _path.vectorPath.Count;
             if (!_reachedEndOfPath) {
-                Vector2 direction = ((Vector2)_path.vectorPath[_currentWaypoint] - _rigidbody.position).normalized;
-                SetVelocity(direction * speed);
+                _moveVector = ((Vector2)_path.vectorPath[_currentWaypoint] - _rigidbody.position).normalized;
                 _entityData.entityAnimationManager.Run(GetSpeedWithVelocity());
                 RotateEntity(_rigidbody.velocity.x);
                 float distance = Vector2.Distance(_rigidbody.position, _path.vectorPath[_currentWaypoint]);

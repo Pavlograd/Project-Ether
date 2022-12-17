@@ -35,6 +35,7 @@ public class RoomEditor : MonoBehaviour
     [SerializeField] private GameObject _portal;
     private Tile _tile;
     private int _roomID = 0;
+    Vector2 limits; // limits of the room to prevent objects outside
 
     // Start is called before the first frame update
     void Start()
@@ -47,7 +48,7 @@ public class RoomEditor : MonoBehaviour
         if (CrossSceneInfos.CrossSceneInformation == null) CrossSceneInfos.CrossSceneInformation = "0";
 
         _roomID = int.Parse(CrossSceneInfos.CrossSceneInformation);
-        GameObject.Find("Load").GetComponent<LoadRoom>().activeRoom = _roomID;
+        _roomLoader.activeRoom = _roomID;
 
         ChangeName();
     }
@@ -57,7 +58,7 @@ public class RoomEditor : MonoBehaviour
         string fileContents = File.ReadAllText(Application.persistentDataPath + "/save.json");
         PlayerClass player = JsonUtility.FromJson<PlayerClass>(fileContents);
 
-        _name.text = player.donjon.rooms[_roomID].name;
+        //_name.text = player.donjon.rooms[_roomID].name;
     }
 
     public void SwitchLayer(string layer)
@@ -73,7 +74,7 @@ public class RoomEditor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
+        if (Input.GetMouseButtonDown(0) && !Global.IsPointerOverUIObject() && IsInsideRoom(GetMousePosition()))
         {
             switch (_selection)
             {
@@ -100,6 +101,26 @@ public class RoomEditor : MonoBehaviour
             }
 
         }
+    }
+
+    Vector2Int GetMousePosition()
+    {
+        return Vector2Int.FloorToInt(Camera.main.ScreenToWorldPoint(Input.mousePosition));
+    }
+
+    bool IsInsideRoom(Vector2Int position)
+    {
+        if (limits.x == 0) limits = _roomLoader._size; // Set limits because not settable in Start
+
+        if (position.x >= 0 && position.y >= 0 && position.x <= limits.x && position.y <= limits.y)
+        {
+            PrintDebug.Maurin(position);
+            return true;
+        }
+
+        PrintDebug.Maurin("Outside room");
+
+        return false;
     }
 
     void Delete()
@@ -248,6 +269,7 @@ public class RoomEditor : MonoBehaviour
         }
         else
         {
+            PrintDebug.Maurin("Tile placed");
             map.SetTile(pos, _tile);
         }
     }

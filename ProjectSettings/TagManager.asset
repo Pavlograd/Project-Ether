@@ -18,6 +18,7 @@ TagManager:
   - ComItemList
   - InventoryItemList
   - InventorySpellList
+  - FriendItemList
   layers:
   - Default
   - TransparentFX

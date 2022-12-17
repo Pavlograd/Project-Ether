@@ -6,17 +6,19 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Tilemaps;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class SaveRoom : MonoBehaviour
 {
     [SerializeField] private Tilemap _walls;
     [SerializeField] private Tilemap _ground;
-    [SerializeField] private Text _name;
+    [SerializeField] private TMP_Text _name;
     [SerializeField] private GameObject _traps;
     [SerializeField] private GameObject _mobs;
     [SerializeField] private GameObject _decors;
     [SerializeField] private GameObject _portals;
     string _room;
+    [SerializeField] private TMP_Text text;
 
     public RoomClass SetRoomAsString(bool save)
     {
@@ -27,12 +29,12 @@ public class SaveRoom : MonoBehaviour
 
         RoomClass room = new RoomClass();
 
-        room.room = _room;
+        //room.room = _room;
         room.name = (_name != null) ? _name.text : "room";
-        room.traps = SetTrapsAsString();
-        room.mobs = SetMobsAsString();
+        //room.traps = SetTrapsAsString();
+        //room.mobs = SetMobsAsString();
         room.decors = SetDecorsAsString();
-        room.portals = SetPortalsAsString();
+        //room.portals = SetPortalsAsString();
 
         // Now add to save
         if (save)
@@ -61,7 +63,7 @@ public class SaveRoom : MonoBehaviour
 
         RoomClass room = new RoomClass();
 
-        room.room = _room;
+        //room.room = _room;
         room.name = (_name != null) ? _name.text : "room";
 
         // Now add to save
@@ -88,18 +90,23 @@ public class SaveRoom : MonoBehaviour
         PlayerClass player = JsonUtility.FromJson<PlayerClass>(fileContents);
         RoomClass room = new RoomClass();
 
-        room.room = _room;
-        room.name = _name.text;
-        room.traps = SetTrapsAsString();
-        room.mobs = SetMobsAsString();
+        //room.room = _room;
+        room.name = (_name != null) ? _name.text : "room";
+        //room.traps = SetTrapsAsString();
+        //room.mobs = SetMobsAsString();
         room.decors = SetDecorsAsString();
-        room.portals = SetPortalsAsString();
+        //room.portals = SetPortalsAsString();
 
         player.donjon.rooms[GameObject.Find("Load").GetComponent<LoadRoom>().activeRoom] = room;
         player.donjon.tested = false;
 
         string json = JsonUtility.ToJson(player);
         File.WriteAllText(Application.persistentDataPath + "/save.json", json);
+        Invoke("ReturnToSandBox", 2.5f);
+    }
+
+    void ReturnToSandBox()
+    {
         SceneManager.LoadScene("SandBox");
     }
 
@@ -171,9 +178,19 @@ public class SaveRoom : MonoBehaviour
     public void SetWallsAsString()
     {
         BoundsInt bounds = _walls.cellBounds;
+        PrintDebug.Maurin(bounds);
         TileBase[] allTiles = _walls.GetTilesBlock(bounds);
+        int offsetError = 0; // Error currently with save
+        int numberTiles = 0;
 
         _room += "Walls:[";
+        bool debugValue = false;
+        GameObject loadObject = GameObject.Find("Load");
+
+        if (loadObject != null)
+        {
+            offsetError = loadObject.GetComponent<LoadRoom>().initialY;
+        }
 
         for (int x = 0; x < bounds.size.x; x++)
         {
@@ -183,10 +200,20 @@ public class SaveRoom : MonoBehaviour
 
                 if (tile != null)
                 {
-                    _room += x + ":" + y + ":" + tile.name + ",";
+                    if (text != null && !debugValue)
+                    {
+                        debugValue = true;
+                        //offsetError -= y;
+                        text.text += x + ":" + y + ":" + tile.name + ",";
+                        PrintDebug.Maurin("first tile saved:" + text.text);
+                    }
+                    if (tile.name != "wall_corner_front_left") numberTiles++;
+                    _room += (x + bounds.position.x) + ":" + (y + bounds.position.y) + ":" + tile.name + ",";
                 }
             }
         }
+
+        PrintDebug.Maurin("Number tiles not default:" + numberTiles);
 
         _room += "],";
     }
@@ -195,6 +222,7 @@ public class SaveRoom : MonoBehaviour
     {
         BoundsInt bounds = _ground.cellBounds;
         TileBase[] allTiles = _ground.GetTilesBlock(bounds);
+        bool debugValue = false;
 
         _room += "Ground:[";
 
@@ -205,7 +233,15 @@ public class SaveRoom : MonoBehaviour
                 TileBase tile = allTiles[x + y * bounds.size.x];
                 if (tile != null)
                 {
-                    _room += x + ":" + y + ":" + tile.name + ",";
+                    if (text != null && !debugValue)
+                    {
+                        debugValue = true;
+                        //offsetError -= y;
+                        text.text += x + ":" + y + ":" + tile.name + ",";
+                        PrintDebug.Maurin("first tile ground saved:" + text.text);
+                    }
+
+                    _room += (x + bounds.position.x) + ":" + (y + bounds.position.y) + ":" + tile.name + ",";
                 }
             }
         }

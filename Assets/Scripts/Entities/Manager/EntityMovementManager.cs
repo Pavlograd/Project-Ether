@@ -1,10 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EntityMovementManager : MonoBehaviour
 {
     public float speed = 3f;
+    [HideInInspector] public float initialSpeed;
     public bool canMove = true;
     [SerializeField] protected Rigidbody2D _rigidbody;
     protected EntityData _entityData;
@@ -12,6 +11,7 @@ public class EntityMovementManager : MonoBehaviour
 
     protected virtual void Awake()
     {
+        initialSpeed = speed;
         _entityData = GetComponent<EntityData>();
         _spriteTransform = transform.Find("Sprite");
     }
@@ -27,7 +27,7 @@ public class EntityMovementManager : MonoBehaviour
 
     protected float GetSpeedWithVelocity()
     {
-        return Vector2.Distance(_rigidbody.velocity, Vector2.zero) / 4;
+        return Vector2.Distance(_rigidbody.velocity, Vector2.zero) / 5.5f;
     }
 
     public void RotateEntity(float horizontalAxis)

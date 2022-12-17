@@ -9,15 +9,12 @@ public class AIBossAbilityManager : AIAbilityManager
     private List<Ability> _attackAbilities = new List<Ability>(4);
     private float timerAttack = 0f;
     [SerializeField] private RuntimeAnimatorController _playerController;//TEMPORAIRE
-    [SerializeField] private Ability _playerDefaultAttack;//TEMPORAIRE
-    [SerializeField] private List<Ability> _playerAbilities;//TEMPORAIRE
 
     protected override void Start()
     {
         _target = GameObject.Find("Player");
 
         _entityData.entityAnimationManager.bodyAnimator.runtimeAnimatorController = _playerController;
-        _abilitiesHolder.SetNewAbilities(_playerDefaultAttack, _playerAbilities);
 
         foreach (Ability ability in _abilitiesHolder.abilities) {
             if (ability.abilityType == AbilityType.BUFF || ability.abilityType == AbilityType.ACTIVABLE)
@@ -33,7 +30,7 @@ public class AIBossAbilityManager : AIAbilityManager
             return;
         if (timerAttack <= 0f) {
             if (_canAbilityAttack) {
-                foreach (Ability buffAbility in _buffAbilities) {
+                foreach (Ability buffAbility in _abilitiesHolder.abilities) {
                     if (!buffAbility.IsOnCooldown()) {
                         TriggerAbility(buffAbility, false);
                         timerAttack = 3f;

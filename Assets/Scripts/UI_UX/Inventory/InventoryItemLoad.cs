@@ -6,6 +6,7 @@ using System.IO;
 using System.Text;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class InventoryItemLoad : MonoBehaviour
 {
@@ -25,18 +26,11 @@ public class InventoryItemLoad : MonoBehaviour
 
     private void setUpItem()
     {
-        int i = 0;
-
         foreach (API_inventory item in InventoryList.inventories)
         {
             if ((Int32.Parse(item.quantity)) > 0)
             {
-
-                Vector3 pos = new Vector3(355f, 120f, 0.0f);
-                pos.y = pos.y - (60 * i);
-                i = i + 1;
-
-                GameObject newInventoryItem = Instantiate(prefab, pos, transform.rotation);
+                GameObject newInventoryItem = Instantiate(prefab);
 
                 newInventoryItem.transform.SetParent(GameObject.FindGameObjectWithTag("InventoryItemList").transform, false);
                 newInventoryItem.SetActive(true);
@@ -44,10 +38,10 @@ public class InventoryItemLoad : MonoBehaviour
                 Image itemImage = newInventoryItem.transform.Find("Picture").GetComponent<Image>();
                 itemImage.sprite = Resources.Load<Sprite>("Textures/Shop/Item/" + System.IO.Path.GetFileNameWithoutExtension(item._id));
 
-                Text itemName = newInventoryItem.transform.Find("Name").GetComponent<Text>();
+                TextMeshProUGUI itemName = newInventoryItem.transform.Find("Name").GetComponent<TextMeshProUGUI>();
                 itemName.text = item.name;
 
-                Text itemQuantity = newInventoryItem.transform.Find("Quantity").GetComponent<Text>();
+                TextMeshProUGUI itemQuantity = newInventoryItem.transform.Find("Quantity").GetComponent<TextMeshProUGUI>();
                 itemQuantity.text = item.quantity;
             }
         };

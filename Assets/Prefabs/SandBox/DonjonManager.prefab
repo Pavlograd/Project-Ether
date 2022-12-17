@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1816540631002869188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1816540631002869186}
+  - component: {fileID: 1816540631002869187}
+  - component: {fileID: 1816540631002869185}
+  - component: {fileID: 1816540631002869184}
+  - component: {fileID: 1816540631002869199}
+  - component: {fileID: 1816540631002869198}
+  - component: {fileID: 1816540631002869197}
+  - component: {fileID: 1816540631002869196}
+  - component: {fileID: 2233648812572586416}
+  m_Layer: 0
+  m_Name: DonjonManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1816540631002869186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816540631002869188}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1816540631002869187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816540631002869188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5327d0d0f7016947a10cd8cad4a7c3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadTextures: {fileID: 1816540631002869185}
+  sandBoxManager: {fileID: 1816540631002869184}
+  prefabRoom: {fileID: 3692723630132233330, guid: 04cc71baf5060e34ea85fc2c2c03eada, type: 3}
+  prefabsElements:
+  - {fileID: 6836929479807735904, guid: 16d69af92bb69a64e9076cb31901a44e, type: 3}
+  - {fileID: 473158620848523995, guid: 125e5a2a19c363f49a7b97ff0b2501d8, type: 3}
+  - {fileID: 473158620848523995, guid: 125e5a2a19c363f49a7b97ff0b2501d8, type: 3}
+  - {fileID: 6836929479807735904, guid: 16d69af92bb69a64e9076cb31901a44e, type: 3}
+  - {fileID: 8728522404577753612, guid: ba2139671d2ce694da3aae1ee7da3eb3, type: 3}
+  - {fileID: 473158620848523995, guid: 125e5a2a19c363f49a7b97ff0b2501d8, type: 3}
+  prefabDoorPath: {fileID: 5435465804128122953, guid: 4cb0ce2ecf10bde40b99410cd71a5d9b, type: 3}
+  sandBoxprefabsTrapAndMobs:
+  - {fileID: 1788500267363069254, guid: d412b9928fa519a499137b728cdc41b9, type: 3}
+  - {fileID: 6474270202868001463, guid: cca513a2e92ae0e449b4bc1c5ce9d77c, type: 3}
+  - {fileID: 8415509713086544927, guid: e51cd93d18be9b24d98f886a6f978c6d, type: 3}
+  - {fileID: 8688319465408233085, guid: 3b002c1a722fb2c48894abc7ec6c3b4b, type: 3}
+  - {fileID: 9119667183609848542, guid: 1da55127c142b7141ac85df0017f5875, type: 3}
+  - {fileID: 3456268252554830112, guid: 377fecc2d98ea2d4ca000ab28e70bc71, type: 3}
+  - {fileID: 4696044580514312586, guid: 3b2ff565b7a29d043b08cae27b166580, type: 3}
+  - {fileID: 8688319465408233085, guid: ee052bea80429774baf886a1f7feca90, type: 3}
+  - {fileID: 9119667183609848542, guid: 700aa8f6d322dad4d8480dfbe3886047, type: 3}
+  prefabsTrapAndMobs:
+  - {fileID: 3396350541365593682, guid: 906ff7b5b97c9fd488847db351918b90, type: 3}
+  - {fileID: 1788500267363069254, guid: d412b9928fa519a499137b728cdc41b9, type: 3}
+  - {fileID: 6474270202868001463, guid: cca513a2e92ae0e449b4bc1c5ce9d77c, type: 3}
+  - {fileID: 8415509713086544927, guid: e51cd93d18be9b24d98f886a6f978c6d, type: 3}
+  - {fileID: 5868228268045033810, guid: 9054ff135794701468f379193fe946b8, type: 3}
+  - {fileID: 3621847053368607701, guid: 865f9357e862bc54995f2f06fd8b3595, type: 3}
+  - {fileID: 290898308901763469, guid: 750cf4e0440081c4cacf095deab8d170, type: 3}
+  - {fileID: 5451813284636326907, guid: d89154eabcc199d4b9452d6d6b6d3f29, type: 3}
+  - {fileID: 284178757930375665, guid: b7d5f892907277b40b1d58ba9aad02b6, type: 3}
+  donjon: {fileID: 0}
+  player: {fileID: 0}
+  rooms: []
+  sandBox: 1
+  doorsPaths: []
+--- !u!114 &1816540631002869185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816540631002869188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df8673328052daf4081aca1e1d0c69f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textures: []
+  texturesWall: []
+  tilesGround: []
+  tilesWall: []
+  _wallFilter: {fileID: 2800000, guid: ff2b0f1dcde7a8d42953d71d443e7f90, type: 3}
+  generationData: {fileID: 11400000, guid: 4c723f3f5af678e428cc47bfbdb54df1, type: 2}
+--- !u!114 &1816540631002869184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816540631002869188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcf8ae479a216c74b92b79e1191aa755, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  donjonLoaderV2: {fileID: 1816540631002869187}
+  clickAndDrag: {fileID: 0}
+  roomCreator: {fileID: 1816540631002869199}
+  roomMover: {fileID: 1816540631002869198}
+  trapMover: {fileID: 1816540631002869197}
+  editElement: {fileID: 0}
+  uIManager: {fileID: 0}
+  uIManagerWorldSpace: {fileID: 0}
+  popUps: {fileID: 0}
+  selectedObject: {fileID: 0}
+  selection: 7
+  temporaryRoom: {fileID: 0}
+--- !u!114 &1816540631002869199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816540631002869188}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95bd346318be2f147ab7a02c70ff285c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sandBoxManager: {fileID: 1816540631002869184}
+  donjonLoaderV2: {fileID: 1816540631002869187}
+  temporaryRoom: {fileID: 0}
+  panning: 0
+--- !u!114 &1816540631002869198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816540631002869188}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7496963bd96d144b25c2ff82430244, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sandBoxManager: {fileID: 1816540631002869184}
+  panning: 0
+  target: {fileID: 0}
+--- !u!114 &1816540631002869197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816540631002869188}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4b152bbeb5ad174e898556c797a190a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sandBoxManager: {fileID: 1816540631002869184}
+  panning: 0
+  target: {fileID: 0}
+--- !u!114 &1816540631002869196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816540631002869188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23db0ae12a56647469ece3a3f53b408c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  donjonLoaderV2: {fileID: 1816540631002869187}
+  seeker: {fileID: 2233648812572586416}
+--- !u!114 &2233648812572586416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816540631002869188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask:
+    value: -1

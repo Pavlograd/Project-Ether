@@ -15,3 +15,9 @@ public class API_User_Texture
     public string id = "";
     public string texture = "";
 }
+
+[Serializable]
+public class API_User_NewTexture
+{
+    public string texture = "";
+}

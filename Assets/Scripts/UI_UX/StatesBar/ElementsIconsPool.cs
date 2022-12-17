@@ -27,11 +27,26 @@ public class ElementsIconsPool : MonoBehaviour
         }
     }
 
+    public void ActiveState(States state, Transform trfm, float duration, float elaspedTime)
+    {
+        StateUIManager stateManager;
+
+        if (_iconsObj.TryGetValue(state, out stateManager)) {
+            stateManager.gameObject.transform.SetParent(trfm, true);
+            stateManager.gameObject.SetActive(true);
+            stateManager.StartTimer(duration);
+            stateManager.StartTimer(duration, elaspedTime);
+        }
+    }
+
     public void RemoveState(States state)
     {
         StateUIManager stateManager;
 
         if (_iconsObj.TryGetValue(state, out stateManager)) {
+            if (!stateManager) {
+                return;
+            }
             stateManager.gameObject.transform.SetParent(this.transform, true);
             stateManager.gameObject.SetActive(false);
         }

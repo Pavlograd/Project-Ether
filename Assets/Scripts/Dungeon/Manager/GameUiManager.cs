@@ -24,10 +24,16 @@ public class GameUiManager : MonoBehaviour
                 gameManager.SetLevelState(LevelState.PREVISUALISATION);
         }
     }
+
+    public void RestartGame()
+    {
+        Time.timeScale = 1f;
+        FindObjectOfType<LevelLoader>().LoadLevel(SceneManager.GetActiveScene().name);
+    }
     
     public void GoBackToMainMenu()
     {
-        Time.timeScale = 1;
-        SceneManager.LoadScene("Main Menu");
+        Time.timeScale = 1f;
+        FindObjectOfType<LevelLoader>().LoadLevel("Main Menu");
     }
 }

@@ -75,6 +75,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 1.3
       objectReference: {fileID: 0}
+    - target: {fileID: 2334762541874472484, guid: e99f1efd79a2e684bb3b96c12951a824, type: 3}
+      propertyPath: _icon
+      value: 
+      objectReference: {fileID: 21300000, guid: d9789430ea4ff84499841eb1d182decf, type: 3}
     - target: {fileID: 2846155018864132814, guid: e99f1efd79a2e684bb3b96c12951a824, type: 3}
       propertyPath: _abilities.Array.size
       value: 3
@@ -96,6 +100,10 @@ PrefabInstance:
       value: -0.486
       objectReference: {fileID: 0}
     - target: {fileID: 3710153982905076055, guid: e99f1efd79a2e684bb3b96c12951a824, type: 3}
+      propertyPath: _iconTarget
+      value: 
+      objectReference: {fileID: 21300000, guid: d9789430ea4ff84499841eb1d182decf, type: 3}
+    - target: {fileID: 3710153982905076055, guid: e99f1efd79a2e684bb3b96c12951a824, type: 3}
       propertyPath: _Sprites.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -103,6 +111,14 @@ PrefabInstance:
       propertyPath: _Sprites.Array.data[0]
       value: 
       objectReference: {fileID: 5669833164279308550}
+    - target: {fileID: 3766095715292604616, guid: e99f1efd79a2e684bb3b96c12951a824, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3766095715292604616, guid: e99f1efd79a2e684bb3b96c12951a824, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d9789430ea4ff84499841eb1d182decf, type: 3}
     - target: {fileID: 4517633955352113269, guid: e99f1efd79a2e684bb3b96c12951a824, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 1.3
@@ -151,14 +167,6 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 4949050632347932957, guid: e99f1efd79a2e684bb3b96c12951a824, type: 3}
-      propertyPath: loots.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4949050632347932957, guid: e99f1efd79a2e684bb3b96c12951a824, type: 3}
-      propertyPath: loots.Array.data[1]
-      value: 
-      objectReference: {fileID: 11400000, guid: 07ffbb8d501c67e42b8b0523437f6d6a, type: 2}
     - target: {fileID: 5755907292786606052, guid: e99f1efd79a2e684bb3b96c12951a824, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -170,6 +178,10 @@ PrefabInstance:
     - target: {fileID: 6111759332275325231, guid: e99f1efd79a2e684bb3b96c12951a824, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6475228210006823656, guid: e99f1efd79a2e684bb3b96c12951a824, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.85
       objectReference: {fileID: 0}
     - target: {fileID: 6498013262140450478, guid: e99f1efd79a2e684bb3b96c12951a824, type: 3}
       propertyPath: m_Controller
@@ -190,6 +202,10 @@ PrefabInstance:
     - target: {fileID: 8377594241155012970, guid: e99f1efd79a2e684bb3b96c12951a824, type: 3}
       propertyPath: m_SortingOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9087557222135096316, guid: e99f1efd79a2e684bb3b96c12951a824, type: 3}
+      propertyPath: _health
+      value: 35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e99f1efd79a2e684bb3b96c12951a824, type: 3}

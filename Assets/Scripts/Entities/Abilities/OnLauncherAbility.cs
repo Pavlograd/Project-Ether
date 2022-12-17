@@ -17,7 +17,7 @@ public class OnLauncherAbility : Ability
         DataBuff buff = new DataBuff {
             type = _buff,
             duration = _duration,
-            increasedAmount = _increasedAmount,
+            increasedAmount = _increasedAmount + tierUpgradesValue[lvl - 1],
             isPourcentage =  _isPourcentage,
             name = name,
             gameObject = gameObject
@@ -28,4 +28,6 @@ public class OnLauncherAbility : Ability
         gameObject.transform.parent = parent;
         Destroy(gameObject, this._duration);
     }
+
+    public override float GetValueEffect() => _increasedAmount;
 }

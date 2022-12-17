@@ -20,8 +20,8 @@ public class RoomGenerator : MonoBehaviour
 
     void Awake()
     {
-        _size.x = 4;
-        _size.y = 4;
+        _size.x = 6;
+        _size.y = 6;
 
         ChangeTiles(_spriteGround, _spriteWall);
     }
@@ -266,8 +266,8 @@ public class RoomGenerator : MonoBehaviour
     public void RandomRoom()
     {
         ChangeForm(Random.Range(0, 2));
-        ChangeHeigth(Random.Range(4, 25));
-        ChangeWidth(Random.Range(4, 25));
+        ChangeHeigth(Random.Range(4, 15));
+        ChangeWidth(Random.Range(4, 15));
     }
 
     public void ChangeForm(int form)

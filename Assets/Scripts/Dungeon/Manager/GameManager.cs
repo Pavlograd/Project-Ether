@@ -14,7 +14,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject _player;
     [SerializeField] private LevelState _levelState = LevelState.PREVISUALISATION;
 
-    private void Start() {
+    private void Start()
+    {
         SetLevelState(_levelState);
     }
 
@@ -77,9 +78,7 @@ public class GameManager : MonoBehaviour
     private void SetupPrevisualisationEnvironment()
     {
         _levelState = LevelState.PREVISUALISATION;
-        if (AudioManager.instance) {
-            AudioManager.instance.PlayMusic(Music.IN_GAME);
-        }
+        AudioManager.instance?.PlayMusic(Music.IN_GAME);
         LoadAdditiveScene("DungeonPrevisuUi");
         if (SceneManager.GetSceneByName("GameUi").isLoaded) {
             UnLoadAdditiveScene("GameUi");

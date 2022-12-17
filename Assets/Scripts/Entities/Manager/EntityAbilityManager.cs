@@ -30,10 +30,10 @@ public class EntityAbilityManager : MonoBehaviour
         }
     }
 
-    protected void TriggerAbility(Ability ability, bool isAutoAttack)
+    protected bool TriggerAbility(Ability ability, bool isAutoAttack)
     {
         if (ability.IsOnCooldown() || ability.abilityType == AbilityType.NONE || (ability.abilityType == AbilityType.PROJECTILE && !TargetIsReachable())) {
-            return;
+            return false;
         }
         FaceTargetDirection();
         if (isAutoAttack) {
@@ -45,6 +45,7 @@ public class EntityAbilityManager : MonoBehaviour
         }
         _abilityOnUse = ability;
         StartCoroutine(ability.ActiveCooldown());
+        return true;
     }
 
     public void ActivateAbility()
@@ -58,19 +59,19 @@ public class EntityAbilityManager : MonoBehaviour
         switch (type) {
             case AbilityType.TARGET:
                 if (_target != null) {
-                    ability.Activate(_target.transform, ComputeAdditionalDamages(ability.damages, ability.lvl));
+                    ability.Activate(_target.transform, ComputeAdditionalDamages(ability.damages, ability.tierUpgradesValue[ability.lvl - 1]));
                 }
                 break;
             case AbilityType.PROJECTILE:
                 if (_target != null) {
-                    ability.Activate(gameObject.layer, _firePoint, _target.transform, ComputeAdditionalDamages(ability.damages, ability.lvl));
+                    ability.Activate(gameObject.layer, _firePoint, _target.transform, ComputeAdditionalDamages(ability.damages, ability.tierUpgradesValue[ability.lvl - 1]));
                 }
                 break;
             case AbilityType.BUFF:
                 ability.Activate(gameObject.transform);
                 break;
             case AbilityType.ACTIVABLE:
-                ability.Activate(gameObject.transform, gameObject.layer, ComputeAdditionalDamages(ability.damages, ability.lvl));
+                ability.Activate(gameObject.transform, gameObject.layer, ComputeAdditionalDamages(ability.damages, ability.tierUpgradesValue[ability.lvl - 1]));
                 break;
             default:
                 break;
@@ -95,7 +96,7 @@ public class EntityAbilityManager : MonoBehaviour
         _canAbilityAttack = true;
     }
 
-    private float ComputeAdditionalDamages(float initialDamage, float abiliyLevel)
+    private float ComputeAdditionalDamages(float initialDamage, float abiliyLevelDamages)
     {
         float additionalDamages = 0;
 
@@ -108,9 +109,7 @@ public class EntityAbilityManager : MonoBehaviour
                 }
             }
         }
-        if (abiliyLevel > 1) {
-            additionalDamages += 5 * abiliyLevel - 1;
-        }
+        additionalDamages += abiliyLevelDamages;
         return additionalDamages;
     }
 }

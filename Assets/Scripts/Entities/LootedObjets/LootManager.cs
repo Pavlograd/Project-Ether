@@ -6,7 +6,6 @@ public class LootManager : MonoBehaviour
     private Transform _target;
     private Vector3 _velocity = Vector3.zero;
     private Vector2 _landingPos;
-    private bool _isActive = false;
     private bool _hasLanded = false;
     private float _animation;
 

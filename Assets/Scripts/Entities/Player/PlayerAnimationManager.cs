@@ -1,11 +1,33 @@
-using System.Collections;
+using System;
 using System.Collections.Generic;
+// using UnityEditor.Animations;
 using UnityEngine;
 
 public class PlayerAnimationManager : EntityAnimationManager
 {
-    [SerializeField] private Animator _staffAnimator;
+    // [SerializeField] private Animator _staffAnimator;
+    
+    [SerializeField] private List<Animator> _playerControllers;
+    [SerializeField] private List<Animator> _staffControllers;
+    
+    private Animator _staffAnimator;
 
+    public override void Start() 
+    {
+        int i = 0;
+        while (i < _playerControllers.Count)
+        {
+            if (i.ToString() == CrossSceneInfos.skinId)
+                break;
+            ++i;
+        }
+        foreach (Animator animator in _playerControllers)
+            animator.gameObject.transform.parent.gameObject.SetActive(false);
+        _staffControllers[i].gameObject.transform.parent.gameObject.SetActive(true);
+        _staffAnimator = _staffControllers[i];
+        bodyAnimator = _playerControllers[i];
+    }
+    
     public override void Run(float animationSpeed)
     {
         if (!_entityData.entityHealthManager.isAlive) return;

@@ -12,16 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e35b41ead51e2c24eb0052781351872c, type: 3}
   m_Name: IceShard
   m_EditorClassIdentifier: 
-  name: IceShard
+  name: ElectricShard
   sfx: 1
   cooldownTime: 5
   thumbnail: {fileID: 21300000, guid: 8d87f0f228ec0824c8188c90462b9aa6, type: 3}
   abilityType: 4
   damages: 10
-  lvl: 0
+  lvl: 1
   id: 0
   parentId: 5
   geared: 0
   _particles: {fileID: 3540105127056218001, guid: 1e2d326368241b04eac21e092715d3fc, type: 3}
   state: 3
+  tierUpgradesValue:
+  - 0
+  - 5
+  - 10
+  - 15
+  - 20
   _speed: 15

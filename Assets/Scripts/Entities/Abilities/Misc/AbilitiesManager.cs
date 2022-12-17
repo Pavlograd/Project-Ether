@@ -6,7 +6,7 @@ public class AbilitiesManager : MonoBehaviour
 
     public void ActivateAbility()
     {
-        _entityAbilityManager.ActivateAbility();
+        _entityAbilityManager?.ActivateAbility();
     }
 
     public void EndAbility()

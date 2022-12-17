@@ -24,9 +24,27 @@ public class StateUIManager : MonoBehaviour
         StartCoroutine(StateTimer());
     }
 
+    public void StartTimer(float duration, float elaspedTime)
+    {
+        _delaysSeconds = duration;
+        _animationTime = _delaysSeconds - elaspedTime;
+        StartCoroutine(StateTimerFromValue());
+    }
+
     IEnumerator StateTimer()
     {
         _animationTime = _delaysSeconds;
+        for (; _animationTime > 0; _animationTime -= Time.deltaTime) {
+            _blackCoverImageCpmt.fillAmount = _animationTime / _delaysSeconds;
+            yield return null;
+        }
+        gameObject.SetActive(false);
+        _blackCoverImageCpmt.fillAmount = 1;
+        _parent.RemoveState(state);
+    }
+
+    IEnumerator StateTimerFromValue()
+    {
         for (; _animationTime > 0; _animationTime -= Time.deltaTime) {
             _blackCoverImageCpmt.fillAmount = _animationTime / _delaysSeconds;
             yield return null;

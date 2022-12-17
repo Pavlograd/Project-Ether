@@ -13,6 +13,14 @@ public class EntityAnimationManager : MonoBehaviour
         _entityData = GetComponent<EntityData>();
     }
 
+    virtual public void Start()
+    {
+        if (gameObject.name == "BossNotPlayer")
+        {
+            //TODO update boss skin to defender skin
+        }
+    }
+    
     virtual public void Run(float animationSpeed)
     {
         if (!_entityData.entityHealthManager.isAlive) return;

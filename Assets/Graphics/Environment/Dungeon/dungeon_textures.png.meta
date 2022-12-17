@@ -276,7 +276,7 @@ TextureImporter:
       213: 2083311915737598188
     second: dungeon_textures_90
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -297,6 +297,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -335,6 +336,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -362,6 +364,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 1
     textureFormat: -1
@@ -2296,6 +2310,98 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      dungeon_textures_22: -3375781162338907829
+      dungeon_textures_44: -5545007113823206805
+      dungeon_textures_68: -6030791599752259931
+      dungeon_textures_66: 7206932081058591652
+      dungeon_textures_57: 5025905085240181136
+      dungeon_textures_13: 4715317076875746362
+      dungeon_textures_67: 7623198013536951606
+      dungeon_textures_47: 4167786093216134242
+      dungeon_textures_26: -296494833421806415
+      dungeon_textures_31: 8915982626972173910
+      dungeon_textures_53: -1811013512753839096
+      dungeon_textures_58: -5290904301343145835
+      dungeon_textures_19: 7672165227032416682
+      dungeon_textures_11: -4608365500507582928
+      dungeon_textures_10: -2337961871597783945
+      dungeon_textures_74: 8771564532936511563
+      dungeon_textures_83: 4519532697473757215
+      dungeon_textures_61: -8152997773683053088
+      dungeon_textures_37: 8554377951587683094
+      dungeon_textures_4: -1593348350012805956
+      dungeon_textures_87: -2202630811882794975
+      dungeon_textures_88: 2638208515446273907
+      dungeon_textures_76: 3509317281233245497
+      dungeon_textures_8: -4324055399994648681
+      dungeon_textures_78: 2743738402143082476
+      dungeon_textures_42: -7031220002569099946
+      dungeon_textures_75: -3618688721956740090
+      dungeon_textures_27: 1532278208699119033
+      dungeon_textures_36: -5305238433282710067
+      dungeon_textures_6: -2738949604240488573
+      dungeon_textures_56: 1541801759592182858
+      dungeon_textures_5: 7894319674105188592
+      dungeon_textures_1: 8582424185430223261
+      dungeon_textures_7: -474526850436928060
+      dungeon_textures_23: 953491331143636927
+      dungeon_textures_39: -2877371580237705505
+      dungeon_textures_85: -8102375977271910822
+      dungeon_textures_65: 7748124516339831053
+      dungeon_textures_50: -2100483180722689362
+      dungeon_textures_0: 8090880096451634815
+      dungeon_textures_90: 2083311915737598188
+      dungeon_textures_28: -1617043484292708924
+      dungeon_textures_32: 3289663807021577046
+      dungeon_textures_70: 6590192959808165851
+      dungeon_textures_77: 4872617846117634482
+      dungeon_textures_38: -4723496023980294436
+      dungeon_textures_64: -2555386412269264319
+      dungeon_textures_89: -2918976568372130692
+      dungeon_textures_2: -4911721861223559428
+      dungeon_textures_49: -3070225225025514370
+      dungeon_textures_3: -1529648581922376791
+      dungeon_textures_41: 3733678694795961561
+      dungeon_textures_81: -5374688187514995456
+      dungeon_textures_55: 3929369596537809630
+      dungeon_textures_79: 5498134474214064353
+      dungeon_textures_51: 4121764265495918973
+      dungeon_textures_43: -16360209329628319
+      dungeon_textures_63: 4766922784342389863
+      dungeon_textures_84: -7788642114553082565
+      dungeon_textures_34: -7103738671280601658
+      dungeon_textures_69: 4781900469865284076
+      dungeon_textures_73: -3883331728006761703
+      dungeon_textures_86: -8178348342174867835
+      dungeon_textures_14: -4701479223434196290
+      dungeon_textures_60: -7999962692554681628
+      dungeon_textures_82: -7551693866328257478
+      dungeon_textures_40: -4494585163994670211
+      dungeon_textures_20: 3992916305661890359
+      dungeon_textures_21: 6846146381560113581
+      dungeon_textures_33: 868109044362860371
+      dungeon_textures_29: 8805083229703794439
+      dungeon_textures_45: -170200155162348690
+      dungeon_textures_48: 6340022881023831555
+      dungeon_textures_15: -4485462279291168818
+      dungeon_textures_35: -6892571805142875376
+      dungeon_textures_18: -3107975702206158190
+      dungeon_textures_54: 3954794930638058884
+      dungeon_textures_9: -6814051742706388932
+      dungeon_textures_24: -4586592125095203082
+      dungeon_textures_62: -705364484039739244
+      dungeon_textures_71: 669292420522319779
+      dungeon_textures_25: -6211751085200515870
+      dungeon_textures_12: 6683223927356653410
+      dungeon_textures_17: -7729583449243203898
+      dungeon_textures_30: -570169005276617198
+      dungeon_textures_59: 5522819009240677778
+      dungeon_textures_52: -4079432791320965971
+      dungeon_textures_80: -5124874914574905995
+      dungeon_textures_16: -7117312515923427045
+      dungeon_textures_72: -7417944332685718643
+      dungeon_textures_46: -6807961960696941261
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

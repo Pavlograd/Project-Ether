@@ -3,6 +3,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+// Load Level 
+// Very simple version of LoadDonjon
+// SCRIPT USELESS NOW
+// DON'T USE IT
+// SCRIPT USELESS NOW
+// DON'T USE IT
+// SCRIPT USELESS NOW
+// DON'T USE IT
+// SCRIPT USELESS NOW
+// DON'T USE IT
+// SCRIPT USELESS NOW
+// DON'T USE IT
+
 public class LoadLevel : MonoBehaviour
 {
     [SerializeField] private LoadRoom roomLoader;
@@ -30,7 +44,6 @@ public class LoadLevel : MonoBehaviour
             // Deserialize the JSON data 
             // into a pattern matching the PlayerData class.
             PlayerClass player = JsonUtility.FromJson<PlayerClass>(fileContents);
-            Debug.Log(player.donjon.rooms[0].name);
 
             for (int i = 0; i < player.donjon.rooms.Count; i++)
             {

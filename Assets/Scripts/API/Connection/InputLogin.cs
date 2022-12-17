@@ -47,6 +47,10 @@ public class InputLogin : MonoBehaviour
 
     public void Login()
     {
+        Debug.Log("login");
+        Debug.Log(login.text);
+        Debug.Log(password.text);
+
         if (string.IsNullOrEmpty(login.text))
         {
             return;
@@ -98,7 +102,7 @@ public class InputLogin : MonoBehaviour
                         // redirect to main menu
                         levelLoader.LoadLevel("Main Menu");
 
-                        notification.text = "You are connected: " + this.userToken + " " + Token.GetToken();
+                        notification.text = "You are connected !";
                         notification.color = new Color32(117, 215, 24, 255);
                     }
                     else

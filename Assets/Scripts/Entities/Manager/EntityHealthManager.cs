@@ -1,18 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class EntityHealthManager : MonoBehaviour
 {
     [HideInInspector] public bool isAlive = true;
-    [SerializeField] private float _health = 100;
+    [SerializeField] protected float _health = 100;
+    protected float _maxHealth = 100;
     [SerializeField] protected Slider _healthBar;
     protected EntityData _entityData;
+
 
     protected virtual void Awake()
     {
         _entityData = GetComponent<EntityData>();
+        _maxHealth = _health;
     }
 
     protected virtual void Start()
@@ -34,8 +35,6 @@ public class EntityHealthManager : MonoBehaviour
         if (_healthBar) {
             _healthBar.value = _health;
         }
-        if (gameObject.name == "Player");
-            print(_healthBar.value);
     }
 
     protected virtual void Die()
@@ -50,5 +49,10 @@ public class EntityHealthManager : MonoBehaviour
         _healthBar = healthBar;
         _healthBar.maxValue = _health;
         _healthBar.value = _health;
+    }
+
+    public float GetHealthRatio()
+    {
+        return _health / _maxHealth;
     }
 }

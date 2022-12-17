@@ -9,9 +9,23 @@ public class TestsAPI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        CrossSceneInfos.token = "9aae593e15488b98e57b6da07823bb122afbe53b";
+        //API.PostUserDonjon("caca");
+
+        API_Users users = API.GetUsers();
+
+        foreach (API_User user in users.users)
+        {
+            API_Donjon objectDonjon = API.GetUserDonjon(user.username);
+
+            if (objectDonjon != null)
+            {
+                Debug.Log(user.username);
+                Debug.Log(objectDonjon.data);
+            }
+        }
+        //CrossSceneInfos.token = "9aae593e15488b98e57b6da07823bb122afbe53b";
         //StartCoroutine(GetUserData());
-        StartCoroutine(GetUserTextures());
+        //StartCoroutine(GetUserTextures());
     }
 
     // Update is called once per frame

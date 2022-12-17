@@ -25,6 +25,7 @@ public class Portal : MonoBehaviour
             if (player.ableToTeleport)
             {
                 player.ableToTeleport = false;
+                AudioManager.instance?.PlaySoundEffect(SFX.TELEPORT);
                 Teleport(player);
             }
             else
@@ -44,23 +45,40 @@ public class Portal : MonoBehaviour
 
             if (portal.room == roomConnected && portal.portal == portalConnected)
             {
-                player.transform.position = portal.transform.position;
-
-                GameObject.Find("Main Camera").transform.position = CalculateCenterPosition() + new Vector3(0, 0, -10.0f);
-
-                GridGraph gg = AstarPath.active.data.gridGraph; // This get the first (and unique) graph
-
-                gg.center = portal.transform.position; // Set cenetr to current player positions
-
-                AstarPath.active.Scan(); // Rescan to manually update graph
-
-                Debug.Log("Teleported");
+                Time.timeScale = 0f;
+                GameObject.Find("RoomAnimation").GetComponent<Animator>().SetTrigger("Play");
+                StartCoroutine(TeleportAfterTime(player, portal, 0.75f));//the middle of the animation is 0.45 secondes (3/4 of one second) so 0.75f
+                StartCoroutine(continueGameAfterTP(0.75f * 2f));
                 return;
             }
         }
 
         Debug.Log("Not teleportated");
     }
+
+    IEnumerator continueGameAfterTP(float time)
+    {
+        yield return new WaitForSecondsRealtime(time);
+        Time.timeScale = 1f;
+    }
+
+
+    IEnumerator TeleportAfterTime(PlayerMovementManager player, Portal portal, float time)
+    {
+        yield return new WaitForSecondsRealtime(time);
+        player.transform.position = portal.transform.position;
+
+        GameObject.Find("Main Camera").transform.position = CalculateCenterPosition() + new Vector3(0, 0, -10.0f);
+
+        GridGraph gg = AstarPath.active.data.gridGraph; // This get the first (and unique) graph
+
+        gg.center = portal.transform.position; // Set cenetr to current player positions
+
+        AstarPath.active.Scan(); // Rescan to manually update graph
+
+        Debug.Log("Teleported");
+    }
+
 
     Vector3 CalculateCenterPosition() // Will calculate the center of the room
     {

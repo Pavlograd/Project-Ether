@@ -17,9 +17,17 @@ MonoBehaviour:
   cooldownTime: 0
   thumbnail: {fileID: -4239029514210759221, guid: e89ec820965c55449b3b245f1b39cbba, type: 3}
   abilityType: 4
-  damages: 5
-  lvl: 0
+  damages: 6
+  lvl: 1
   id: 0
+  parentId: 0
+  geared: 0
   _particles: {fileID: 2208556315079534543, guid: aaa12d92d53d93e4c90b1c678c98cb17, type: 3}
   state: 0
+  tierUpgradesValue:
+  - 0
+  - 5
+  - 10
+  - 15
+  - 20
   _speed: 15

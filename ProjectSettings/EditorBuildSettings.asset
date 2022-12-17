@@ -56,4 +56,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RandomGeneration.unity
     guid: 2207bd9734edf8d45be0bc10e153e6fc
+  - enabled: 1
+    path: Assets/Scenes/TutoMenu.unity
+    guid: 7eb9f05171de94843b8b184dfae2d4a1
+  - enabled: 1
+    path: Assets/Scenes/NewVersionSandBox.unity
+    guid: 64993c5fe4e8c2943a5132e567f36b09
+  - enabled: 1
+    path: Assets/Scenes/NewDonjon.unity
+    guid: 1d61dc93cddb03d4694fcf20db15e415
   m_configObjects: {}

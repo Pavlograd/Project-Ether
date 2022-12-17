@@ -3,7 +3,7 @@ guid: e493fddfa1dee2d41bc8a30548efe914
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -24,6 +24,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -41,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -62,6 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -99,9 +101,966 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 464
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8e2e92e2908d94396f7012fa895695
+      internalID: 716586773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 464
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06717342e38accd4691b830dc8ffa40f
+      internalID: -753257700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 464
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9436a19658705e47a3c15a04d4b0432
+      internalID: -736610758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 464
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914e0089bcb76904e9bf35cf2706e629
+      internalID: 820044666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 464
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec33e78da4a60f4c91ec572ca38ed85
+      internalID: 212520078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 397
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d989f78a22ec34688331658d80d446
+      internalID: 1942734122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_6
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 397
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e153a67c9d9e1444e851b89de669a957
+      internalID: -1658069801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_7
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 396
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adac703c8f6af7742a13b96996f7a590
+      internalID: -2135254231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_8
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 396
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62edf96b7b8e1ec48a7e617039373669
+      internalID: -890810662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_9
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 396
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c6f68a673dc9c46b3d55fa716b5ffb
+      internalID: -454320299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_10
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 334
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1528aca0dfd677e40ba3d4311c497cc0
+      internalID: -1824269103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_11
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 335
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9bb4bd5e700004fb54e6798a13f10e
+      internalID: -908831589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_12
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 334
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a67ea8e596de3b47a2812e08ca357d0
+      internalID: 1669199669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_13
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 333
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e17036609761f40a95821931aa7976
+      internalID: 281282823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_14
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 272
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4645d5484565b7a48aef926a34abb8ee
+      internalID: 1574891403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_15
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 272
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22091f8d5c819d64189cceddf7c33bc2
+      internalID: 712796597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_16
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 272
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a003f441b419fa4468e4ec111414ad60
+      internalID: -874203306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_17
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 272
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b26f76d3569ea439044649b0d75a93
+      internalID: -593456238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_18
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 272
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97f254ae46e60e42af293281c6f2b05
+      internalID: -574529102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_19
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 272
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b50cc388f71a843a46693c1f3ff394
+      internalID: 383974068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_20
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 272
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257c6e2c6b650b54fb4c1f79cd3581d9
+      internalID: -1272830357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_21
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 272
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0555b317778ee444596acb68b17391b2
+      internalID: 1049952845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_22
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 208
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436b62c0d965a5348b5a3a6e62a6e286
+      internalID: -794743393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_23
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 144
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8f050ab49f61a448560ab65aaa3a09
+      internalID: -1430899078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_24
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 143
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fa5662694630b4b913443328f9684e
+      internalID: -1178085310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_25
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 144
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a4d69fc5efaf0458bde5e87ef1d242
+      internalID: -260798599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_26
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 145
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b837cb97cb486034482ee8959dfd2dca
+      internalID: -733313746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_31
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 80
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d54e7175e69e204c942cdf573244206
+      internalID: 897838998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_32
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 80
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298cba5f1db555946b598762eb600df8
+      internalID: -316922229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_33
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 80
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260ec1935b1e38e42922e15773ddf3f4
+      internalID: 1178030442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_34
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 80
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cfbb5be2ff73c42b1a96153c070419
+      internalID: 1289880467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_35
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 80
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0be7ffe15135f4b9a487d1a53ea065
+      internalID: 1606705769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_36
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 80
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e641bfdb1369054499506a9afbb8b7a
+      internalID: -1789023650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_37
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 80
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74099d50f2927f944b414cf932aba07a
+      internalID: -2130214413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_38
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 80
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6177a7a3f00d41b4e831467a0d141675
+      internalID: 1134749415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_39
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 80
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d19f98ff6b80d45a845260b9702ba3
+      internalID: -2006633342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_40
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 13
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4258ba6bbd0bded4aa2a970374c85710
+      internalID: -2137887214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_41
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 13
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b87fd4dbec31aa41b5324f78cf5240a
+      internalID: 310436546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_42
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 13
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c2947796d1aec48b723bfa0e228609
+      internalID: -1532035149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_43
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 13
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d87b6a71ee9bf4a977cb9d836311fa
+      internalID: -1391620188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_44
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 13
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319aeb1bbe02dca4c88288993cd78ce1
+      internalID: 718149155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_45
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 13
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de42d8b160c9c4d4f9e3f89d3acce7e2
+      internalID: -445577201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_46
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 14
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b35a44b5a3520449e107d2b68f5a82
+      internalID: 595959306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_47
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 13
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e7da9cffb80fb4d9cf9697e555f77a
+      internalID: 1721991549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 16x16 Mage 4 without staff_48
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 13
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585281e5b6d021840b079d8b75418444
+      internalID: -1769380547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -112,6 +1071,56 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      16x16 Mage 4 without staff_38: 1134749415
+      16x16 Mage 4 without staff_4: 212520078
+      16x16 Mage 4 without staff_3: 820044666
+      16x16 Mage 4 without staff_46: 595959306
+      16x16 Mage 4 without staff_22: -794743393
+      16x16 Mage 4 without staff_44: 718149155
+      16x16 Mage 4 without staff_18: -574529102
+      16x16 Mage 4 without staff_24: -1178085310
+      16x16 Mage 4 without staff_12: 1669199669
+      16x16 Mage 4 without staff_33: 1178030442
+      16x16 Mage 4 without staff_41: 310436546
+      16x16 Mage 4 without staff_2: -736610758
+      16x16 Mage 4 without staff_37: -2130214413
+      16x16 Mage 4 without staff_15: 712796597
+      16x16 Mage 4 without staff_28: -228618473
+      16x16 Mage 4 without staff_27: -1451796138
+      16x16 Mage 4 without staff_16: -874203306
+      16x16 Mage 4 without staff_47: 1721991549
+      16x16 Mage 4 without staff_48: -1769380547
+      16x16 Mage 4 without staff_36: -1789023650
+      16x16 Mage 4 without staff_5: 1942734122
+      16x16 Mage 4 without staff_31: 897838998
+      16x16 Mage 4 without staff_1: -753257700
+      16x16 Mage 4 without staff_42: -1532035149
+      16x16 Mage 4 without staff_35: 1606705769
+      16x16 Mage 4 without staff_45: -445577201
+      16x16 Mage 4 without staff_11: -908831589
+      16x16 Mage 4 without staff_32: -316922229
+      16x16 Mage 4 without staff_21: 1049952845
+      16x16 Mage 4 without staff_26: -733313746
+      16x16 Mage 4 without staff_0: 716586773
+      16x16 Mage 4 without staff_10: -1824269103
+      16x16 Mage 4 without staff_6: -1658069801
+      16x16 Mage 4 without staff_7: -2135254231
+      16x16 Mage 4 without staff_9: -454320299
+      16x16 Mage 4 without staff_43: -1391620188
+      16x16 Mage 4 without staff_30: 1047800246
+      16x16 Mage 4 without staff_40: -2137887214
+      16x16 Mage 4 without staff_25: -260798599
+      16x16 Mage 4 without staff_23: -1430899078
+      16x16 Mage 4 without staff_8: -890810662
+      16x16 Mage 4 without staff_39: -2006633342
+      16x16 Mage 4 without staff_34: 1289880467
+      16x16 Mage 4 without staff_17: -593456238
+      16x16 Mage 4 without staff_20: -1272830357
+      16x16 Mage 4 without staff_13: 281282823
+      16x16 Mage 4 without staff_19: 383974068
+      16x16 Mage 4 without staff_29: -230435487
+      16x16 Mage 4 without staff_14: 1574891403
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

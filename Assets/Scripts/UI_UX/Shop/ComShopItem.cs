@@ -35,30 +35,30 @@ public class ComShopItem : MonoBehaviour
 
     private void setUpItem()
     {
-        int i = 0;
+        //int i = 0;
 
         foreach (ComShopItemClass item in ShopList.items)
         {
-            Vector3 pos = new Vector3(100.0f, 16.0f, 0.0f);
-            pos.x = pos.x + (175 * i);
-            i = i + 1;
-            GameObject newShopItem = Instantiate(prefab, pos, transform.rotation);
-            newShopItem.transform.SetParent(GameObject.FindGameObjectWithTag("ComItemList").transform, false);
-            newShopItem.SetActive(true);
+            /* Vector3 pos = new Vector3(100.0f, 16.0f, 0.0f);
+             pos.x = pos.x + (175 * i);
+             i = i + 1;
+             GameObject newShopItem = Instantiate(prefab, pos, transform.rotation);
+             newShopItem.transform.SetParent(GameObject.FindGameObjectWithTag("ComItemList").transform, false);
+             newShopItem.SetActive(true);
 
-            Image itemImage = newShopItem.transform.Find("Picture").GetComponent<Image>();
-            itemImage.sprite = Resources.Load<Sprite>("Textures/Shop/Item/" + System.IO.Path.GetFileNameWithoutExtension(item.id.ToString()));
+             Image itemImage = newShopItem.transform.Find("Picture").GetComponent<Image>();
+             itemImage.sprite = Resources.Load<Sprite>("Textures/Shop/Item/" + System.IO.Path.GetFileNameWithoutExtension(item.id.ToString()));
 
-            Text itemName = newShopItem.transform.Find("Name").GetComponent<Text>();
-            itemName.text = item.name;
+             Text itemName = newShopItem.transform.Find("Name").GetComponent<Text>();
+             itemName.text = item.name;
 
-            setItemCurrency(newShopItem, item);
+             setItemCurrency(newShopItem, item);*/
         };
     }
 
     private void setItemCurrency(GameObject newShopItem, ComShopItemClass item)
     {
-        GameObject contener = newShopItem.transform.Find("Price").gameObject;
+        /*GameObject contener = newShopItem.transform.Find("Price").gameObject;
         buyInformation buyInfo = newShopItem.transform.Find("Price").GetComponent<buyInformation>();
 
         Image image = contener.transform.Find("Type").GetComponent<Image>();
@@ -66,16 +66,16 @@ public class ComShopItem : MonoBehaviour
         Text price = contener.transform.Find("Number").GetComponent<Text>();
         buyInfo.price = item.price;
         buyInfo.type = item.moneyType;
-        price.text = item.price.ToString();
+        price.text = item.price.ToString();*/
 
     }
 
     public void buyOnClick(GameObject prefab)
     {
-        buyInformation buyInfo = prefab.transform.Find("Price").GetComponent<buyInformation>();
+        /*buyInformation buyInfo = prefab.transform.Find("Price").GetComponent<buyInformation>();
 
         MoneyInventory MentoringCount = Mentoring.transform.Find("GameObject").GetComponent<MoneyInventory>(); //change mentoring to cash
         MentoringCount.removeCrystal(buyInfo.price);
-        MentoringCount.saveCrystal();
+        MentoringCount.saveCrystal();*/
     }
 }

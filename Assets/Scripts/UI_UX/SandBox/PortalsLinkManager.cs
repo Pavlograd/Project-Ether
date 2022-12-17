@@ -28,9 +28,9 @@ public class PortalsLinkManager : MonoBehaviour
 
         for (var i = 0; i < player.donjon.rooms.Count; i++)
         {
-            string[] portals = player.donjon.rooms[i].portals.Split(',');
+            //string[] portals = player.donjon.rooms[i].portals.Split(',');
 
-            _portalsInRoom[i] = portals.Length;
+            //_portalsInRoom[i] = portals.Length;
         }
     }
 

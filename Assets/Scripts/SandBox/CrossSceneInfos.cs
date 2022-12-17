@@ -6,4 +6,5 @@ public static class CrossSceneInfos
     public static string token { get; set; }
     public static string username { get; set; }
     public static string userid { get; set; }
+    public static string skinId { get; set; }
 }

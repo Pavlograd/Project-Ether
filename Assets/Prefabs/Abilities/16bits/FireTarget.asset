@@ -18,9 +18,15 @@ MonoBehaviour:
   thumbnail: {fileID: 4998422741148294416, guid: e89ec820965c55449b3b245f1b39cbba, type: 3}
   abilityType: 3
   damages: 10
-  lvl: 0
+  lvl: 1
   id: 0
   parentId: 2
   geared: 0
   _particles: {fileID: 6780025485095769363, guid: cce5084b9bfb164439395d76c0aca64e, type: 3}
   state: 1
+  tierUpgradesValue:
+  - 0
+  - 5
+  - 10
+  - 15
+  - 20

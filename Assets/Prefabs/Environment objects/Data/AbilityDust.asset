@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43e46d4123349e94083c1bc5e49d43f9, type: 3}
+  m_Name: AbilityDust
+  m_EditorClassIdentifier: 
+  itemId: 4
+  objectName: Ability dust
+  minAmount: 10
+  maxAmount: 20
+  dropRate: 0.75
+  prefab: {fileID: 1955052633311147543, guid: b23153f336a094c818b6bcb0315ddcf0, type: 3}
+  picture: {fileID: -7413309008400886627, guid: 03c27fbe1879ce34594ced29ca0dbdcc, type: 3}
